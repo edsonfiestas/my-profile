@@ -389,7 +389,7 @@ export default function ProfileCard() {
             onClick={() => setModalOpen(true)}
             className="w-full py-3 bg-blue-500 hover:bg-blue-600 rounded-xl text-white font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 cursor-pointer"
           >
-            Book Mentoring
+            Portfolio
             <Icon d={ICONS.userPlus} className="w-5 h-5" />
           </button>
         </div>
