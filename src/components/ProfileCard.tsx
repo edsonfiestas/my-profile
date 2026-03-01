@@ -39,39 +39,102 @@ const ICONS = {
   moon: "M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z",
   xMark: "M6 18 18 6M6 6l12 12",
   arrowLeft: "M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18",
-  heart: "M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z",
-  userGroup: "M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z",
-  arrowTrendingUp: "M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941",
+  heart:
+    "M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z",
+  userGroup:
+    "M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z",
+  arrowTrendingUp:
+    "M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941",
   clock: "M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
   user: "M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z",
-  squares: "M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z",
+  squares:
+    "M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z",
   star: "M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z",
   chevronRight: "m8.25 4.5 7.5 7.5-7.5 7.5",
-  commandLine: "m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z",
+  commandLine:
+    "m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z",
   eye: "M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z",
-  cursorArrowRays: "M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59",
+  cursorArrowRays:
+    "M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59",
   map: "M9 6.75V15m0-8.25a1.5 1.5 0 0 1 3 0V15m-3 0a1.5 1.5 0 0 0 3 0m-9.75 0h15M2.25 15a2.25 2.25 0 0 0 2.25 2.25h15a2.25 2.25 0 0 0 2.25-2.25M2.25 15V5.625A2.25 2.25 0 0 1 4.5 3.375h15a2.25 2.25 0 0 1 2.25 2.25V15",
-  shieldCheck: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
-  codeBracket: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5",
-  sparkles: "M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z",
-  codeBracketSquare: "M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z",
-  globeAlt: "M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418",
-  checkBadgeSolid: "M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z",
-  userPlus: "M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z",
+  shieldCheck:
+    "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
+  codeBracket:
+    "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5",
+  sparkles:
+    "M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z",
+  codeBracketSquare:
+    "M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z",
+  globeAlt:
+    "M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418",
+  checkBadgeSolid:
+    "M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z",
+  userPlus:
+    "M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z",
 };
 
 /* ─── Skills data ─── */
 const skills = [
-  { name: "16+ Years Web Development", icon: ICONS.clock, color: "text-amber-500 dark:text-amber-400", bg: "bg-amber-50 dark:bg-amber-900/30" },
-  { name: "C Programming Foundation", icon: ICONS.commandLine, color: "text-blue-600 dark:text-blue-400", bg: "bg-blue-50 dark:bg-blue-900/30" },
-  { name: "UX / UI Design", icon: ICONS.eye, color: "text-purple-500 dark:text-purple-400", bg: "bg-purple-50 dark:bg-purple-900/30" },
-  { name: "Figma Design", icon: ICONS.cursorArrowRays, color: "text-pink-500 dark:text-pink-400", bg: "bg-pink-50 dark:bg-pink-900/30" },
-  { name: "User Flows", icon: ICONS.map, color: "text-teal-500 dark:text-teal-400", bg: "bg-teal-50 dark:bg-teal-900/30" },
-  { name: "QA Testing", icon: ICONS.shieldCheck, color: "text-green-500 dark:text-green-400", bg: "bg-green-50 dark:bg-green-900/30" },
-  { name: "React", icon: ICONS.codeBracket, color: "text-cyan-500 dark:text-cyan-400", bg: "bg-cyan-50 dark:bg-cyan-900/30" },
-  { name: "Tailwind CSS", icon: ICONS.sparkles, color: "text-sky-500 dark:text-sky-400", bg: "bg-sky-50 dark:bg-sky-900/30" },
-  { name: "JavaScript", icon: ICONS.codeBracketSquare, color: "text-yellow-500 dark:text-yellow-400", bg: "bg-yellow-50 dark:bg-yellow-900/30" },
-  { name: "HTML & CSS", icon: ICONS.globeAlt, color: "text-orange-500 dark:text-orange-400", bg: "bg-orange-50 dark:bg-orange-900/30" },
+  {
+    name: "16+ Years Web Development",
+    icon: ICONS.clock,
+    color: "text-amber-500 dark:text-amber-400",
+    bg: "bg-amber-50 dark:bg-amber-900/30",
+  },
+  {
+    name: "C Programming Foundation",
+    icon: ICONS.commandLine,
+    color: "text-blue-600 dark:text-blue-400",
+    bg: "bg-blue-50 dark:bg-blue-900/30",
+  },
+  {
+    name: "UX / UI Design",
+    icon: ICONS.eye,
+    color: "text-purple-500 dark:text-purple-400",
+    bg: "bg-purple-50 dark:bg-purple-900/30",
+  },
+  {
+    name: "Figma Design",
+    icon: ICONS.cursorArrowRays,
+    color: "text-pink-500 dark:text-pink-400",
+    bg: "bg-pink-50 dark:bg-pink-900/30",
+  },
+  {
+    name: "User Flows",
+    icon: ICONS.map,
+    color: "text-teal-500 dark:text-teal-400",
+    bg: "bg-teal-50 dark:bg-teal-900/30",
+  },
+  {
+    name: "QA Testing",
+    icon: ICONS.shieldCheck,
+    color: "text-green-500 dark:text-green-400",
+    bg: "bg-green-50 dark:bg-green-900/30",
+  },
+  {
+    name: "React",
+    icon: ICONS.codeBracket,
+    color: "text-cyan-500 dark:text-cyan-400",
+    bg: "bg-cyan-50 dark:bg-cyan-900/30",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: ICONS.sparkles,
+    color: "text-sky-500 dark:text-sky-400",
+    bg: "bg-sky-50 dark:bg-sky-900/30",
+  },
+  {
+    name: "JavaScript",
+    icon: ICONS.codeBracketSquare,
+    color: "text-yellow-500 dark:text-yellow-400",
+    bg: "bg-yellow-50 dark:bg-yellow-900/30",
+  },
+  {
+    name: "HTML & CSS",
+    icon: ICONS.globeAlt,
+    color: "text-orange-500 dark:text-orange-400",
+    bg: "bg-orange-50 dark:bg-orange-900/30",
+  },
 ];
 
 /* ─── Social links (brand SVG paths, viewBox 24x24) ─── */
@@ -93,12 +156,6 @@ const socialLinks = [
     label: "Instagram",
     viewBox: "0 0 24 24",
     d: "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z",
-  },
-  {
-    href: "https://mx.pinterest.com/edsonfiestas/_profile/",
-    label: "Pinterest",
-    viewBox: "0 0 24 24",
-    d: "M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24 18.635 24 24 18.633 24 12.013 24 5.393 18.635.028 12.017.028V0z",
   },
 ];
 
@@ -143,8 +200,13 @@ export default function ProfileCard() {
         {/* ── Top Bar ── */}
         <div className="flex items-center justify-between px-5 pt-5 pb-3">
           <div className="flex items-center gap-3">
-            <Icon d={ICONS.arrowLeft} className="w-5 h-5 text-gray-800 dark:text-white" />
-            <span className="text-base font-semibold text-gray-800 dark:text-white">Freelancer Profile</span>
+            <Icon
+              d={ICONS.arrowLeft}
+              className="w-5 h-5 text-gray-800 dark:text-white"
+            />
+            <span className="text-base font-semibold text-gray-800 dark:text-white">
+              Freelancer Profile
+            </span>
           </div>
           <div className="flex items-center gap-3">
             {/* Dark Mode Toggle */}
@@ -166,14 +228,13 @@ export default function ProfileCard() {
               </div>
             </button>
             {/* Heart */}
-            <button
-              onClick={() => setLiked(!liked)}
-              className="cursor-pointer"
-            >
+            <button onClick={() => setLiked(!liked)} className="cursor-pointer">
               <Icon
                 d={ICONS.heart}
                 className={`w-6 h-6 transition-colors duration-300 ${
-                  liked ? "text-rose-500 fill-rose-500" : "text-rose-400 dark:text-rose-400"
+                  liked
+                    ? "text-rose-500 fill-rose-500"
+                    : "text-rose-400 dark:text-rose-400"
                 }`}
               />
             </button>
@@ -200,7 +261,10 @@ export default function ProfileCard() {
             <h1 className="text-xl font-bold text-gray-800 dark:text-white transition-colors duration-300">
               Edson Fiestas
             </h1>
-            <IconSolid d={ICONS.checkBadgeSolid} className="w-5 h-5 text-blue-500" />
+            <IconSolid
+              d={ICONS.checkBadgeSolid}
+              className="w-5 h-5 text-blue-500"
+            />
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400 transition-colors duration-300">
             Graphic design / UX / UI / Front Developer
@@ -210,18 +274,35 @@ export default function ProfileCard() {
         {/* ── Stats Row ── */}
         <div className="flex items-center gap-6 px-5 pb-4 text-sm">
           <div className="flex items-center gap-1.5">
-            <Icon d={ICONS.userGroup} className="w-4 h-4 text-gray-400 dark:text-gray-500" />
-            <span className="font-semibold text-gray-800 dark:text-white">1,760</span>
+            <Icon
+              d={ICONS.userGroup}
+              className="w-4 h-4 text-gray-400 dark:text-gray-500"
+            />
+            <span className="font-semibold text-gray-800 dark:text-white">
+              1,760
+            </span>
             <span className="text-gray-400 dark:text-gray-500">Students</span>
           </div>
           <div className="flex items-center gap-1.5">
-            <Icon d={ICONS.arrowTrendingUp} className="w-4 h-4 text-gray-400 dark:text-gray-500" />
-            <span className="font-semibold text-gray-800 dark:text-white">$10,000</span>
-            <span className="text-gray-400 dark:text-gray-500 hidden min-[400px]:inline">Earnings</span>
+            <Icon
+              d={ICONS.arrowTrendingUp}
+              className="w-4 h-4 text-gray-400 dark:text-gray-500"
+            />
+            <span className="font-semibold text-gray-800 dark:text-white">
+              $10,000
+            </span>
+            <span className="text-gray-400 dark:text-gray-500 hidden min-[400px]:inline">
+              Earnings
+            </span>
           </div>
           <div className="flex items-center gap-1.5">
-            <Icon d={ICONS.clock} className="w-4 h-4 text-gray-400 dark:text-gray-500" />
-            <span className="font-semibold text-gray-800 dark:text-white">$149</span>
+            <Icon
+              d={ICONS.clock}
+              className="w-4 h-4 text-gray-400 dark:text-gray-500"
+            />
+            <span className="font-semibold text-gray-800 dark:text-white">
+              $149
+            </span>
             <span className="text-gray-400 dark:text-gray-500">Hourly</span>
           </div>
         </div>
@@ -253,9 +334,17 @@ export default function ProfileCard() {
         <div className="flex items-center border-t border-b border-gray-100 dark:border-gray-800 transition-colors duration-300">
           {(["about", "skills", "reviews"] as Tab[]).map((tab) => {
             const tabIcon =
-              tab === "about" ? ICONS.user : tab === "skills" ? ICONS.squares : ICONS.star;
+              tab === "about"
+                ? ICONS.user
+                : tab === "skills"
+                  ? ICONS.squares
+                  : ICONS.star;
             const tabLabel =
-              tab === "about" ? "About me" : tab === "skills" ? "Skills" : "Reviews";
+              tab === "about"
+                ? "About me"
+                : tab === "skills"
+                  ? "Skills"
+                  : "Reviews";
             return (
               <button
                 key={tab}
@@ -276,7 +365,9 @@ export default function ProfileCard() {
         {/* ── Tab Content ── */}
         <div
           className={`px-5 pt-4 pb-2 overflow-y-auto max-h-64 custom-scrollbar transition-all duration-200 ${
-            tabAnimating ? "opacity-0 translate-y-2" : "opacity-100 translate-y-0"
+            tabAnimating
+              ? "opacity-0 translate-y-2"
+              : "opacity-100 translate-y-0"
           }`}
         >
           {activeTab === "about" && <AboutContent />}
@@ -342,12 +433,16 @@ function AboutContent() {
   return (
     <div className="flex flex-col gap-4">
       <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed animate-skill-in transition-colors duration-300">
-        I design products that are simple, useful, and look great. My focus is on creating
-        experiences people love while meeting real business needs. Every design I create aims
-        to be functional, engaging, and ready for the market...
+        I design products that are simple, useful, and look great. My focus is
+        on creating experiences people love while meeting real business needs.
+        Every design I create aims to be functional, engaging, and ready for the
+        market...
       </p>
 
-      <div className="flex items-center gap-2 text-sm font-semibold text-gray-800 dark:text-white animate-skill-in transition-colors duration-300" style={{ animationDelay: "50ms" }}>
+      <div
+        className="flex items-center gap-2 text-sm font-semibold text-gray-800 dark:text-white animate-skill-in transition-colors duration-300"
+        style={{ animationDelay: "50ms" }}
+      >
         I can help with <span className="text-lg">👍</span>
       </div>
 
@@ -362,7 +457,10 @@ function AboutContent() {
           style={{ animationDelay: `${(i + 2) * 50}ms` }}
         >
           {service}
-          <Icon d={ICONS.chevronRight} className="w-4 h-4 text-gray-400 dark:text-gray-500" />
+          <Icon
+            d={ICONS.chevronRight}
+            className="w-4 h-4 text-gray-400 dark:text-gray-500"
+          />
         </div>
       ))}
     </div>
@@ -380,14 +478,19 @@ function SkillsContent() {
           style={{ animationDelay: `${i * 50}ms` }}
         >
           <div className="flex items-center gap-3">
-            <div className={`p-2 rounded-lg ${skill.bg} ${skill.color} transition-colors duration-300`}>
+            <div
+              className={`p-2 rounded-lg ${skill.bg} ${skill.color} transition-colors duration-300`}
+            >
               <Icon d={skill.icon} className="w-5 h-5" />
             </div>
             <span className="text-sm text-gray-700 dark:text-gray-200 font-medium transition-colors duration-300">
               {skill.name}
             </span>
           </div>
-          <Icon d={ICONS.chevronRight} className="w-4 h-4 text-gray-400 dark:text-gray-500" />
+          <Icon
+            d={ICONS.chevronRight}
+            className="w-4 h-4 text-gray-400 dark:text-gray-500"
+          />
         </div>
       ))}
     </div>
@@ -397,9 +500,18 @@ function SkillsContent() {
 /* ─── Tab: Reviews ─── */
 function ReviewsContent() {
   const reviews = [
-    { name: "Maria Lopez", text: "Excellent work on our website redesign. Very professional and delivered on time." },
-    { name: "Carlos Rivera", text: "Great UX skills. The user flows he created improved our conversion rate significantly." },
-    { name: "Ana Torres", text: "Edson is a talented designer and developer. Highly recommended for any project." },
+    {
+      name: "Maria Lopez",
+      text: "Excellent work on our website redesign. Very professional and delivered on time.",
+    },
+    {
+      name: "Carlos Rivera",
+      text: "Great UX skills. The user flows he created improved our conversion rate significantly.",
+    },
+    {
+      name: "Ana Torres",
+      text: "Edson is a talented designer and developer. Highly recommended for any project.",
+    },
   ];
 
   return (
@@ -414,10 +526,16 @@ function ReviewsContent() {
             <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-500 text-xs font-bold">
               {review.name.charAt(0)}
             </div>
-            <span className="text-sm font-semibold text-gray-800 dark:text-white">{review.name}</span>
+            <span className="text-sm font-semibold text-gray-800 dark:text-white">
+              {review.name}
+            </span>
             <div className="flex gap-0.5 ml-auto">
               {[1, 2, 3, 4, 5].map((s) => (
-                <Icon key={s} d={ICONS.star} className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+                <Icon
+                  key={s}
+                  d={ICONS.star}
+                  className="w-3.5 h-3.5 text-amber-400 fill-amber-400"
+                />
               ))}
             </div>
           </div>

@@ -27,11 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500 p-6`}
       >
-        <div className="p-6">
-          <ProfileCard />
-        </div>
+        <ProfileCard />
       </body>
     </html>
   );
