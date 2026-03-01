@@ -280,7 +280,7 @@ export default function ProfileCard() {
                 className="w-4 h-4 text-gray-800 dark:text-gray-500"
               />
               <span className="font-semibold text-gray-800 dark:text-white">
-                1,200
+                315
               </span>
             </div>
             <span className="text-gray-400 dark:text-gray-500">Projects</span>
