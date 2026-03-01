@@ -292,7 +292,7 @@ export default function ProfileCard() {
                 className="w-4 h-4 text-gray-800 dark:text-gray-500"
               />
               <span className="font-semibold text-gray-800 dark:text-white">
-                $65,000
+                $219,000
               </span>
             </div>
             <span className="text-gray-400 dark:text-gray-500 hidden min-[400px]:inline">
