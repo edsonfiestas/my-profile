@@ -389,7 +389,7 @@ export default function ProfileCard() {
             onClick={() => setModalOpen(true)}
             className="w-full py-3 bg-blue-500 hover:bg-blue-600 rounded-xl text-white font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 cursor-pointer"
           >
-            Portfolio
+            My Work
             <Icon d={ICONS.userPlus} className="w-5 h-5" />
           </button>
         </div>
@@ -416,34 +416,30 @@ export default function ProfileCard() {
               My Work
             </h2>
             <div className="grid grid-cols-3 gap-3">
-              {[1, 2, 3, 4, 5, 6].map((i) =>
-                i === 1 ? (
-                  <a
-                    key={i}
-                    href="/portfolio/appComponents"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
-                  >
-                    <img
-                      src="/images/portfolio01.png"
-                      alt={`Project ${i}`}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                    />
-                  </a>
-                ) : (
-                  <div
-                    key={i}
-                    className="rounded-xl overflow-hidden aspect-square cursor-pointer group"
-                  >
-                    <img
-                      src="/images/faceProfile.png"
-                      alt={`Project ${i}`}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                    />
-                  </div>
-                )
-              )}
+              <a
+                href="/portfolio/appComponents"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+              >
+                <img
+                  src="/images/portfolio01.png"
+                  alt="Project 1"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
+              <a
+                href="/portfolio/notification"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+              >
+                <img
+                  src="/images/portfolio02.png"
+                  alt="Project 2"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
             </div>
           </div>
         </div>

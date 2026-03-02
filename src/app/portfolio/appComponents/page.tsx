@@ -4,7 +4,7 @@ import Image from "next/image";
 const LibreContent = () => {
   return (
     <>
-      <section className="grid grid-cols-12 gap-6 mb-12">
+      <section className="grid grid-cols-12 gap-6">
         <h1 className="text-3xl font-bold col-span-12 mb-3">App Components</h1>
         {/*         <div className=" bg-slate-50 shadow-lg shadow-slate-300 rounded-xl p-6 col-span-9">
           libre 01
