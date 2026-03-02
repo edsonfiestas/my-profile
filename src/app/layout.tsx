@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import ProfileCard from "@/components/ProfileCard";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500 p-4`}
       >
-        <ProfileCard />
+        {children}
       </body>
     </html>
   );
