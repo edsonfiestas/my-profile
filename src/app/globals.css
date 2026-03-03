@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
@@ -16,6 +17,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  outline: none;
+  -webkit-appearance: none;
 }
 
 /* Animations */
@@ -62,4 +68,21 @@ body {
 
 .dark .custom-scrollbar::-webkit-scrollbar-thumb {
   background: #475569;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
