@@ -13,7 +13,7 @@ const LibreContent = () => {
           libre 02
         </div> */}
         <div className=" bg-slate-50 shadow-lg shadow-slate-300 rounded-xl p-6 col-span-12 lg:col-span-6 xl:col-span-4 flex">
-          <div className="w-full flex flex-col gap-9 justify-between w-full">
+          <div className="w-full flex flex-col gap-9 justify-between">
             <div className="flex flex-row gap-3">
               <h3 className="text-2xl font-bold">Notifications</h3>
               <a
