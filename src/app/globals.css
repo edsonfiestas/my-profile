@@ -40,6 +40,11 @@ button {
   to { opacity: 1; transform: translateX(0); }
 }
 
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out;
 }
@@ -85,4 +90,141 @@ button {
 
 .scrollbar::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
+}
+
+
+
+
+.bg-primary-color {
+  background-color: #EF2300;
+}
+.text-primary-color {
+  color: #EF2300;
+}
+.fill-primary-color {
+  fill: #EF2300;
+}
+.stroke-primary-color {
+  stroke: #EF2300;
+}
+.border-primary-color {
+  border-color: #EF2300;
+}
+.button-primary-color {
+  background-color: #EF2300;
+  transition: background-color 0.3s ease-out;
+}
+.button-primary-color:hover {
+  background-color: #BE270D;
+  transition: background-color 0.1s ease-in;
+}
+.button-primary-text-color {
+  color: #EF2300;
+  transition: color 0.3s ease-out;
+}
+.button-primary-text-color:hover {
+  color: #BE270D;
+  transition: background-color 0.1s ease-in;
+}
+.button-primary-border-color {
+  border-color: rgba(239, 35, 0, 0.0);
+  transition: border-color 0.3s ease-out;
+}
+.button-primary-border-color:hover {
+  border-color: rgba(239, 35, 0, 1);
+  transition: border-color 0.1s ease-in;
+}
+
+.bg-secondary-color {
+  background-color: #A9D7CD;
+}
+.text-secondary-color {
+  color: #A9D7CD;
+}
+.fill-secondary-color {
+  fill: #A9D7CD;
+}
+.stroke-secondary-color {
+  stroke: #A9D7CD;
+}
+.border-secondary-color {
+  border-color: #A9D7CD;
+}
+.button-secondary-color {
+  background-color: #A9D7CD;
+  transition: background-color 0.3s ease-out;
+}
+.button-secondary-color:hover {
+  background-color: #94C7BC;
+  transition: background-color 0.1s ease-in;
+}
+.button-secondary-text-color {
+  color: #A9D7CD;
+  transition: color 0.3s ease-out;
+}
+.button-secondary-text-color:hover {
+  color: #94C7BC;
+  transition: background-color 0.1s ease-in;
+}
+.button-secondary-border-color {
+  border-color: rgba(148, 199, 188, 0.0);
+  transition: border-color 0.3s ease-out;
+}
+.button-secondary-border-color:hover {
+  border-color: rgba(148, 199, 188, 1);
+  transition: border-color 0.1s ease-in;
+}
+
+.bg-tertiary-color {
+  background-color: #F9FAEA;
+}
+.text-tertiary-color {
+  color: #F9FAEA;
+}
+.fill-tertiary-color {
+  fill: #F9FAEA;
+}
+.stroke-tertiary-color {
+  stroke: #F9FAEA;
+}
+.border-tertiary-color {
+  border-color: #F9FAEA;
+}
+.button-tertiary-color {
+  background-color: #F9FAEA;
+  transition: background-color 0.3s ease-out;
+}
+.button-tertiary-color:hover {
+  background-color: #F5F7E0;
+  transition: background-color 0.1s ease-in;
+}
+.button-tertiary-text-color {
+  color: #F9FAEA;
+  transition: color 0.3s ease-out;
+}
+.button-tertiary-text-color:hover {
+  color: #F5F7E0;
+  transition: background-color 0.1s ease-in;
+}
+.button-tertiary-border-color {
+  border-color: rgba(249, 250, 234, 0.0);
+  transition: border-color 0.3s ease-out;
+}
+.button-tertiary-border-color:hover {
+  border-color: rgba(249, 250, 234, 1);
+  transition: border-color 0.1s ease-in;
+}
+
+.carrusel-top {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+}
+
+.carrusel-track {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: scroll 60s linear infinite;
 }
