@@ -1,157 +1,297 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 
-interface MenuItem {
-  label: string;
-  submenu: { label: string; href: string }[];
-}
+type MenuItem = {
+  title: string;
+  href?: string;
+  children?: { label: string; href: string }[];
+};
+
+const ITEMS: MenuItem[] = [
+  {
+    title: "Hombres",
+    children: [
+      { label: "Polos", href: "/hombres/polos" },
+      { label: "Pantalones", href: "/hombres/pantalones" },
+      { label: "Zapatillas", href: "/hombres/zapatillas" },
+      { label: "Poleras", href: "/hombres/poleras" },
+      { label: "Gorras", href: "/hombres/gorras" },
+      { label: "Correas", href: "/hombres/correas" },
+      { label: "Zapatos", href: "/hombres/zapatos" },
+    ],
+  },
+  {
+    title: "Mujeres",
+    children: [
+      { label: "Vestidos", href: "/mujeres/vestidos" },
+      { label: "Blusas", href: "/mujeres/blusas" },
+    ],
+  },
+  {
+    title: "Outlets",
+    children: [
+      { label: "Polos", href: "/hombres/polos" },
+      { label: "Pantalones", href: "/hombres/pantalones" },
+      { label: "Zapatillas", href: "/hombres/zapatillas" },
+    ],
+  },
+  {
+    title: "Compañias",
+    children: [
+      { label: "Vestidos", href: "/mujeres/vestidos" },
+      { label: "Blusas", href: "/mujeres/blusas" },
+    ],
+  },
+  {
+    title: "Tiendas",
+    children: [
+      { label: "Vestidos", href: "/mujeres/vestidos" },
+      { label: "Blusas", href: "/mujeres/blusas" },
+    ],
+  },
+  {
+    title: "Ofertas",
+    href: "/ofertas",
+  },
+];
+
+type MenuKey =
+  | "hombres"
+  | "mujeres"
+  | "ninos"
+  | "outlet"
+  | "companias"
+  | "tiendas";
 
 export default function EcomercePage() {
   const [loading, setLoading] = useState(true);
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const [openMenu, setOpenMenu] = useState<MenuKey | null>(null);
+  const navRef = useRef<HTMLDivElement>(null);
+
+  // cursor custom que sigue el mouse sobre el overlay
+  const [isOverOverlay, setIsOverOverlay] = useState(false);
+  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    // Simula la inicialización o carga de datos
     const timer = setTimeout(() => setLoading(false), 600);
     return () => clearTimeout(timer);
   }, []);
-  //MENU ACORDION
-  const [openMenu, setOpenMenu] = useState<string | null>(null);
 
-  // Datos del menú
-  const menuItems: MenuItem[] = [
-    {
-      label: "Hombres",
-      submenu: [
-        { label: "Camisas", href: "/hombres/camisas" },
-        { label: "Pantalones", href: "/hombres/pantalones" },
-        { label: "Zapatos", href: "/hombres/zapatos" },
-        { label: "Accesorios", href: "/hombres/accesorios" },
-      ],
-    },
-    {
-      label: "Mujeres",
-      submenu: [
-        { label: "Vestidos", href: "/mujeres/vestidos" },
-        { label: "Blusas", href: "/mujeres/blusas" },
-        { label: "Faldas", href: "/mujeres/faldas" },
-        { label: "Zapatos", href: "/mujeres/zapatos" },
-      ],
-    },
-    {
-      label: "Niños",
-      submenu: [
-        { label: "Ropa", href: "/ninos/ropa" },
-        { label: "Juguetes", href: "/ninos/juguetes" },
-        { label: "Zapatos", href: "/ninos/zapatos" },
-      ],
-    },
-    {
-      label: "Outlet",
-      submenu: [
-        { label: "Outlet Hombres", href: "/outlet/hombres" },
-        { label: "Outlet Mujeres", href: "/outlet/mujeres" },
-        { label: "Outlet Niños", href: "/outlet/ninos" },
-      ],
-    },
-    {
-      label: "Tiendas",
-      submenu: [
-        { label: "Lima", href: "/tiendas/lima" },
-        { label: "Callao", href: "/tiendas/callao" },
-        { label: "Arequipa", href: "/tiendas/arequipa" },
-      ],
-    },
-  ];
+  const handleToggle =
+    (index: number) => (e: React.SyntheticEvent<HTMLDetailsElement>) => {
+      if (e.currentTarget.open) {
+        setOpenIndex(index);
+      } else if (openIndex === index) {
+        setOpenIndex(null);
+      }
+    };
 
-  // Enlace normal (Compañias)
-  const companiasLink = {
-    label: "Compañias",
-    href: "https://tusitio.com/companias",
-    target: "_blank",
+  const closeNav = () => {
+    setIsNavOpen(false);
+    setIsOverOverlay(false);
   };
 
-  const toggleMenu = (label: string) => {
-    setOpenMenu(openMenu === label ? null : label);
+  const handleOverlayMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    setCursorPos({ x: e.clientX, y: e.clientY });
   };
+
+  //MENU PRINCIPAL
+  const toggleMenu = (key: MenuKey) => (e: React.MouseEvent) => {
+    e.preventDefault();
+    setOpenMenu((prev) => (prev === key ? null : key)); // si ya está abierto, cierra; si no, abre y cierra los demás
+  };
+
+  // click fuera cierra el menú abierto
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setOpenMenu(null);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <div className="flex flex-col h-screen w-screen text-slate-600">
-      <div className="absolute p-3 bg-slate-900/60 w-screen h-screen z-50">
-        <div className="flex justify-center items-end h-full">
-          <div className="bg-white rounded-lg shadow-lg w-full max-h-3/4 overflow-hidden">
-            <div className="flex flex-col w-auto gap-8 h-full  rounded-xl p-4">
-              <div className="overflow-y-auto overflow-x-hidden scrollbar flex-1 min-h-0">
-                <nav className="flex flex-col gap-2">
-                  {menuItems.map((item) => (
-                    <div
-                      key={item.label}
-                      className="border border-gray-200 rounded-lg overflow-visible" // ← Cambiamos a overflow-visible
-                    >
-                      {/* Botón del acordeón */}
-                      <button
-                        onClick={() => toggleMenu(item.label)}
-                        className={`w-full px-4 py-3 bg-white hover:bg-gray-50 flex justify-between items-center transition-colors ${
-                          openMenu === item.label
-                            ? "rounded-t-lg"
-                            : "rounded-lg"
-                        }`}
-                      >
-                        <span className="font-medium">{item.label}</span>
-                        <svg
-                          className={`w-5 h-5 transition-transform duration-200 flex-shrink-0 ${
-                            openMenu === item.label ? "rotate-180" : ""
-                          }`}
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </button>
+      <div
+        className={`${isVisible ? "fixed" : "hidden"} inset-0 p-3 bg-slate-900/60 w-screen h-screen z-50 cursor-none`}
+      >
+        <div className="flex justify-center items-center h-full">
+          <div className="relative bg-white px-6 pb-6 pt-20 rounded-lg shadow-lg w-full h-full cursor-auto">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+                setIsVisible(false);
+              }}
+              className="absolute cursor-pointer bg-white rounded-full justify-center items-center top-6 left-6 flex h-10 w-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-8 w-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </a>
 
-                      {/* Submenú - QUITAMOS overflow-hidden */}
-                      <div
-                        className={`
-              ${openMenu === item.label ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}
-              transition-all duration-300 ease-in-out
-            `}
-                      >
-                        <div className="bg-gray-50 px-4 py-2 border-t border-gray-200 rounded-b-lg">
-                          {item.submenu.map((sub) => (
-                            <a
-                              key={sub.href}
-                              href={sub.href}
-                              className="block py-2 px-3 hover:bg-gray-200 rounded transition-colors text-gray-700 hover:text-gray-900"
-                            >
-                              {sub.label}
-                            </a>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-
-                  {/* Enlace normal (Compañias) */}
-                  <a
-                    href={companiasLink.href}
-                    target={companiasLink.target}
-                    rel="noopener noreferrer"
-                    className="px-4 py-3 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors text-center font-medium"
-                  >
-                    {companiasLink.label}
-                  </a>
-                </nav>
-              </div>
-            </div>
+            <input
+              type="text"
+              name=""
+              id=""
+              className="text-xl border-b border-b-slate-800 px-6 py-3 w-full focus:outline-none"
+              placeholder="Buscar por..."
+            />
           </div>
         </div>
       </div>
+      {isNavOpen && (
+        <div
+          id="popup-nav"
+          onClick={closeNav}
+          onMouseMove={handleOverlayMouseMove}
+          onMouseEnter={() => setIsOverOverlay(true)}
+          onMouseLeave={() => setIsOverOverlay(false)}
+          className="fixed inset-0 p-3 bg-slate-900/60 w-screen h-screen z-50 cursor-none"
+        >
+          <div className="flex justify-center md:justify-start items-end h-full">
+            <div
+              onClick={(e) => e.stopPropagation()}
+              onMouseEnter={() => setIsOverOverlay(false)}
+              onMouseLeave={() => setIsOverOverlay(true)}
+              className="relative bg-white px-6 pb-6 pt-6 md:pt-20 rounded-lg shadow-lg w-full md:w-1/2 md:max-w-96 h-3/4 md:h-full cursor-auto"
+            >
+              <div className="flex h-full w-full">
+                <div className="overflow-y-auto overflow-x-hidden scrollbar min-h-0 w-full">
+                  <div className="h-full">
+                    {/* Botón X para cerrar */}
+                    <button
+                      type="button"
+                      onClick={closeNav}
+                      aria-label="Cerrar menú"
+                      className="absolute cursor-pointer bg-white rounded-full justify-center items-center -top-12 md:top-6 left-1/2 md:left-6 -translate-x-1/2 md:-translate-x-0 flex h-10 w-10"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        className="h-8 w-8"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M6 18 18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+
+                    <div className="mx-auto">
+                      {ITEMS.map((item, index) =>
+                        item.children ? (
+                          <details
+                            key={item.title}
+                            className="group p-4"
+                            open={openIndex === index}
+                            onToggle={handleToggle(index)}
+                          >
+                            <summary className="flex cursor-pointer items-center justify-between uppercase text-lg text-gray-900 font-bold list-none">
+                              {item.title}
+                              <svg
+                                className="h-5 w-5 shrink-0 transition-transform group-open:rotate-180"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth="2"
+                                  d="M19 9l-7 7-7-7"
+                                />
+                              </svg>
+                            </summary>
+                            <ul className="mt-3 space-y-2">
+                              {item.children.map((child) => (
+                                <li key={child.href}>
+                                  <Link
+                                    href={child.href}
+                                    onClick={closeNav}
+                                    className="block text-sm text-gray-600 hover:text-gray-900"
+                                  >
+                                    {child.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </details>
+                        ) : (
+                          <Link
+                            key={item.title}
+                            href={item.href!}
+                            onClick={closeNav}
+                            className="block p-4 font-medium text-gray-900 hover:bg-gray-50"
+                          >
+                            {item.title}
+                          </Link>
+                        ),
+                      )}
+                    </div>
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Cursor custom: círculo blanco con X, solo visible sobre el overlay */}
+          {isOverOverlay && (
+            <div
+              className="pointer-events-none fixed z-[60] flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md"
+              style={{
+                left: cursorPos.x,
+                top: cursorPos.y,
+                transform: "translate(-50%, -50%)",
+              }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="h-4 w-4 text-gray-800"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          )}
+        </div>
+      )}
       <header className="bg-tertiary-color w-full">
         <div className="flex flex-col w-full">
           <div className="py-3 bg-secondary-color text-teal-800">
@@ -193,14 +333,13 @@ export default function EcomercePage() {
               </div>
             </div>
           </div>
-          <div className="px-3 xl:px-0 py-3 w-full xl:w-7xl mx-auto">
+          <div className="px-3 xl:px-0 py-3 w-full xl:w-7xl mx-auto relative">
             <div className="flex justify-between items-center">
               <div className="flex xl:hidden gap-3">
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-slate-800 flex gap-2 items-center"
+                  id="btn-popup-nav"
+                  onClick={() => setIsNavOpen(true)}
+                  className="hover:text-slate-800 flex gap-2 items-center cursor-pointer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -222,6 +361,10 @@ export default function EcomercePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-slate-800 flex md:hidden gap-2 items-center"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsVisible(true);
+                  }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -244,55 +387,200 @@ export default function EcomercePage() {
                   className="w-full max-w-20 h-auto object-contain"
                 />
               </div>
-              <nav className="hidden xl:flex gap-3 ">
+              <nav ref={navRef} className="hidden xl:flex gap-3 ">
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="button-secondary-border-color border-4 px-3 py-1"
+                  onClick={toggleMenu("hombres")}
                 >
                   Hombres
                 </a>
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="button-secondary-border-color border-4 px-3 py-1"
+                  onClick={toggleMenu("mujeres")}
                 >
                   Mujeres
                 </a>
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="button-secondary-border-color border-4 px-3 py-1"
+                  onClick={toggleMenu("ninos")}
                 >
                   Niños
                 </a>
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="button-secondary-border-color border-4 px-3 py-1"
+                  onClick={toggleMenu("outlet")}
                 >
                   Outlet
                 </a>
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="button-secondary-border-color border-4 px-3 py-1"
+                  onClick={toggleMenu("companias")}
                 >
-                  Compañias
+                  Compañías
                 </a>
                 <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="button-secondary-border-color border-4 px-3 py-1"
+                  onClick={toggleMenu("tiendas")}
                 >
                   Tiendas
                 </a>
+
+                <div
+                  className={`${openMenu === "hombres" ? "absolute" : "hidden"} w-full bg-white rounded-lg z-40 p-6 top-16 left-0`}
+                >
+                  <div className="flex flex-row gap-12">
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-sm h-auto object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <h3 className="font-bold uppercase text-lg border-b border-slate-600 mb-6">
+                        Hombres
+                      </h3>
+                      <a href="#">Polos</a>
+                      <a href="#">Pantalones</a>
+                      <a href="#">Zapatillas</a>
+                      <a href="#">Poleras</a>
+                      <a href="#">Gorras</a>
+                      <a href="#">Correas</a>
+                      <a href="#">Zapatos</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={`${openMenu === "mujeres" ? "absolute" : "hidden"} w-full bg-white rounded-lg z-40 p-6 top-16 left-0`}
+                >
+                  <div className="flex flex-row gap-12">
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-sm h-auto object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <h3 className="font-bold uppercase text-lg border-b border-slate-600 mb-6">
+                        Mujeres
+                      </h3>
+                      <a href="#">Polos</a>
+                      <a href="#">Pantalones</a>
+                      <a href="#">Zapatillas</a>
+                      <a href="#">Poleras</a>
+                      <a href="#">Gorras</a>
+                      <a href="#">Correas</a>
+                      <a href="#">Zapatos</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={`${openMenu === "ninos" ? "absolute" : "hidden"} w-full bg-white rounded-lg z-40 p-6 top-16 left-0`}
+                >
+                  <div className="flex flex-row gap-12">
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-sm h-auto object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <h3 className="font-bold uppercase text-lg border-b border-slate-600 mb-6">
+                        Niños
+                      </h3>
+                      <a href="#">Polos</a>
+                      <a href="#">Pantalones</a>
+                      <a href="#">Zapatillas</a>
+                      <a href="#">Poleras</a>
+                      <a href="#">Gorras</a>
+                      <a href="#">Correas</a>
+                      <a href="#">Zapatos</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={`${openMenu === "outlet" ? "absolute" : "hidden"} w-full bg-white rounded-lg z-40 p-6 top-16 left-0`}
+                >
+                  <div className="flex flex-row gap-12">
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-sm h-auto object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <h3 className="font-bold uppercase text-lg border-b border-slate-600 mb-6">
+                        Outlets
+                      </h3>
+                      <a href="#">Polos</a>
+                      <a href="#">Pantalones</a>
+                      <a href="#">Zapatillas</a>
+                      <a href="#">Poleras</a>
+                      <a href="#">Gorras</a>
+                      <a href="#">Correas</a>
+                      <a href="#">Zapatos</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={`${openMenu === "companias" ? "absolute" : "hidden"} w-full bg-white rounded-lg z-40 p-6 top-16 left-0`}
+                >
+                  <div className="flex flex-row gap-12">
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-sm h-auto object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <h3 className="font-bold uppercase text-lg border-b border-slate-600 mb-6">
+                        Compañias
+                      </h3>
+                      <a href="#">Polos</a>
+                      <a href="#">Pantalones</a>
+                      <a href="#">Zapatillas</a>
+                      <a href="#">Poleras</a>
+                      <a href="#">Gorras</a>
+                      <a href="#">Correas</a>
+                      <a href="#">Zapatos</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={`${openMenu === "tiendas" ? "absolute" : "hidden"} w-full bg-white rounded-lg z-40 p-6 top-16 left-0`}
+                >
+                  <div className="flex flex-row gap-12">
+                    <div>
+                      <img
+                        src="/images/faceProfile.png"
+                        alt="Edson"
+                        className="w-sm h-auto object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <h3 className="font-bold uppercase text-lg border-b border-slate-600 mb-6">
+                        Tiendas
+                      </h3>
+                      <a href="#">Polos</a>
+                      <a href="#">Pantalones</a>
+                      <a href="#">Zapatillas</a>
+                      <a href="#">Poleras</a>
+                      <a href="#">Gorras</a>
+                      <a href="#">Correas</a>
+                      <a href="#">Zapatos</a>
+                    </div>
+                  </div>
+                </div>
               </nav>
               <div className="flex gap-6">
                 <div className="hidden lg:flex gap-3">
@@ -327,6 +615,10 @@ export default function EcomercePage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-slate-800  gap-2 items-center hidden md:flex"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setIsVisible(true);
+                    }}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
