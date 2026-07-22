@@ -467,49 +467,69 @@ export default function ProfileCard() {
                 href="/portfolio/ecomerce"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+                className="relative rounded-xl overflow-hidden aspect-square cursor-pointer group block"
               >
-                <img
-                  src="/images/portfolio03.png"
-                  alt="Project 3"
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+                <figure>
+                  <img
+                    src="/images/portfolio03.png"
+                    alt="Project 3"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </figure>
+                <h4 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/65 text-white p-4 rounded-lg z-50">
+                  eCommerce
+                </h4>
               </a>
               <a
                 href="/portfolio/dashboard"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+                className="relative rounded-xl overflow-hidden aspect-square cursor-pointer group block"
               >
-                <img
-                  src="/images/portfolio03.png"
-                  alt="Project 4"
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+                <figure>
+                  <img
+                    src="/images/portfolio04.png"
+                    alt="Project 4"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </figure>
+                <h4 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/65 text-white p-4 rounded-lg z-50">
+                  Dashboard
+                </h4>
               </a>
               <a
                 href="/portfolio/appComponents"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+                className="relative rounded-xl overflow-hidden aspect-square cursor-pointer group block"
               >
-                <img
-                  src="/images/portfolio01.png"
-                  alt="Project 1"
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+                <figure>
+                  <img
+                    src="/images/portfolio01.png"
+                    alt="Project 1"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </figure>
+                <h4 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/65 text-white p-4 rounded-lg z-50">
+                  Components
+                </h4>
               </a>
               <a
                 href="/portfolio/notification"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+                className="relative rounded-xl overflow-hidden aspect-square cursor-pointer group block"
               >
-                <img
-                  src="/images/portfolio02.png"
-                  alt="Project 2"
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+                <figure>
+                  <img
+                    src="/images/portfolio02.png"
+                    alt="Project 2"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </figure>
+                <h4 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/65 text-white p-4 rounded-lg z-50">
+                  Notification
+                </h4>
               </a>
             </div>
           </div>
