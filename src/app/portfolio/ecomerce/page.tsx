@@ -118,7 +118,7 @@ export default function EcomercePage() {
   }, []);
 
   return (
-    <div className="flex flex-col h-screen w-screen text-slate-600">
+    <div className="flex flex-col h-screen w-full text-slate-600">
       {/* BUSCADOR PRINCIPAL*/}
       <div
         className={`${isVisible ? "fixed" : "hidden"} inset-0 p-3 bg-slate-900/60 w-screen h-screen z-50 cursor-none`}
@@ -749,7 +749,7 @@ export default function EcomercePage() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/faceProfile.png"
+                        src="/images/ecomerce-ropa-01.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -883,7 +883,7 @@ export default function EcomercePage() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/faceProfile.png"
+                        src="/images/ecomerce-ropa-02.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1017,7 +1017,7 @@ export default function EcomercePage() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/faceProfile.png"
+                        src="/images/ecomerce-ropa-05.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1151,7 +1151,7 @@ export default function EcomercePage() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/faceProfile.png"
+                        src="/images/ecomerce-ropa-03.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1285,7 +1285,7 @@ export default function EcomercePage() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/faceProfile.png"
+                        src="/images/ecomerce-ropa-04.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1419,7 +1419,7 @@ export default function EcomercePage() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/faceProfile.png"
+                        src="/images/ecomerce-ropa-06.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1668,7 +1668,22 @@ export default function EcomercePage() {
           </div>
         </div>
       </header>
-      <section className="">libre</section>
+      <section className="bg-[#D1AE8E] flex">
+        <figure className="w-1/2 shrink-0">
+          <img
+            src="/images/ecomerce-banner.jpg"
+            alt="Camiseta Básica Algodón"
+            className="w-full h-auto object-cover"
+          />
+        </figure>
+        <figure className="w-1/2 shrink-0">
+          <img
+            src="/images/ecomerce-banner02.jpg"
+            alt="Camiseta Básica Algodón"
+            className="w-full h-auto object-cover"
+          />
+        </figure>
+      </section>
       <footer>footer</footer>
     </div>
   );

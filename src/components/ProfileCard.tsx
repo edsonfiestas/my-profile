@@ -464,6 +464,30 @@ export default function ProfileCard() {
             </h2>
             <div className="grid grid-cols-3 gap-3">
               <a
+                href="/portfolio/ecomerce"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+              >
+                <img
+                  src="/images/portfolio03.png"
+                  alt="Project 3"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
+              <a
+                href="/portfolio/dashboard"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+              >
+                <img
+                  src="/images/portfolio03.png"
+                  alt="Project 4"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
+              <a
                 href="/portfolio/appComponents"
                 target="_blank"
                 rel="noopener noreferrer"
