@@ -650,7 +650,7 @@ export default function HeaderEcomerce() {
             </div>
           </div>
           {/* CARRUSEL FIN*/}
-          <div className="px-3 xl:px-0 py-3 w-full xl:w-7xl mx-auto relative">
+          <div className="px-3 xl:px-0 py-3 w-full max-w-[1440px] mx-auto relative">
             <div className="flex justify-between items-center">
               {/* BOTON MENU RESPONSIVE Y BUSCADOR TABLET INICIO*/}
               <div className="flex xl:hidden gap-3">

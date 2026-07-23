@@ -3,10 +3,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import HeaderEcomerce from "@/components/HeaderEcomerce";
+import FooterEcomerce from "@/components/FooterEcomerce";
 
 export default function EcomercePage() {
   return (
-    <div className="flex flex-col h-screen w-full text-slate-600">
+    <div className="flex flex-col w-full text-slate-600">
       <HeaderEcomerce />
       {/* BBANNER INICIO*/}
       <section className="bg-[#D1AE8E] flex relative overflow-auto">
@@ -37,7 +38,7 @@ export default function EcomercePage() {
         </figure> */}
       </section>
       {/* BBANNER FIN*/}
-      <footer>footer</footer>
+      <FooterEcomerce />
     </div>
   );
 }
