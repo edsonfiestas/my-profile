@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function BannerLanding() {
   return (
     <div className="w-full py-3 md:py-12">
-      <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative flex flex-col-reverse md:flex-row gap-6 justify-center items-center">
+      <div className="px-9 xl:px-0 w-full max-w-[1440px] mx-auto relative flex flex-col-reverse md:flex-row gap-6 justify-center items-center">
         <div className="w-full max-w-md h-full flex flex-col gap-6">
           <span className="opacity-0 animate-fade-in-up [animation-delay:0ms] text-xl uppercase bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
             Hello, I'm
