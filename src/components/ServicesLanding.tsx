@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function ServicesLanding() {
   return (
     <div className="w-full border-t border-slate-800 py-12">
-      <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative grid grid-cols-4 gap-12">
+      <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative grid grid-cols-4 gap-12">
         <div className="col-span-4 flex flex-col gap-1">
           <span className="opacity-0 animate-fade-in-up [animation-delay:0ms] text-xl uppercase bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
             What i do
