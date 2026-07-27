@@ -16,8 +16,8 @@ export default function ServicesLanding() {
           </h3>
         </div>
         <div className="col-span-4 md:col-span-2 lg:col-span-1">
-          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#29233F] to-[#211B37]">
-            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-tl from-[#211B37]/75 to-[#18162F]/75 text-center">
+          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
+            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-purple-800 to-purple-600 text-slate-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@ export default function ServicesLanding() {
           </div>
         </div>
         <div className="col-span-4 md:col-span-2 lg:col-span-1">
-          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#29233F] to-[#211B37]">
-            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-tl from-[#211B37]/75 to-[#18162F]/75 text-center">
+          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
+            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-blue-800 to-blue-600 text-slate-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -112,8 +112,8 @@ export default function ServicesLanding() {
           </div>
         </div>
         <div className="col-span-4 md:col-span-2 lg:col-span-1">
-          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#29233F] to-[#211B37]">
-            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-tl from-[#211B37]/75 to-[#18162F]/75 text-center">
+          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
+            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-purple-800 to-purple-600 text-slate-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,8 +160,8 @@ export default function ServicesLanding() {
           </div>
         </div>
         <div className="col-span-4 md:col-span-2 lg:col-span-1">
-          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#29233F] to-[#211B37]">
-            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-tl from-[#211B37]/75 to-[#18162F]/75 text-center">
+          <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
+            <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-blue-800 to-blue-600 text-slate-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function BannerLanding() {
   return (
     <div className="w-full py-12">
-      <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative flex gap-6 justify-center items-center">
+      <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative flex flex-col lg:flex-row gap-6 justify-center items-center">
         <div className="w-full max-w-md h-full flex flex-col gap-6">
           <span className="opacity-0 animate-fade-in-up [animation-delay:0ms] text-xl uppercase bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
             Hello, I'm
@@ -52,8 +52,8 @@ export default function BannerLanding() {
             alt="Edson"
             className="w-xl h-auto object-cover mask-fade-edges"
           />
-          <div className="absolute bottom-0 right-0 rounded-lg p-[4px] bg-linear-to-br from-[#29233F] to-[#211B37]">
-            <div className="text-lg rounded-lg py-3 px-6 bg-linear-to-tl from-[#211B37]/75 to-[#18162F]/75 text-center">
+          <div className="absolute bottom-0 right-0 rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
+            <div className="text-lg rounded-lg py-3 px-6 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <span className="text-5xl font-bold text-white">5+</span>
               <br /> Years of <br /> Experience
             </div>

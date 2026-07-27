@@ -5,6 +5,7 @@ import Link from "next/link";
 import HeaderLanding from "@/components/HeaderLanding";
 import BannerLanding from "@/components/BannerLanding";
 import ServicesLanding from "@/components/ServicesLanding";
+import ProjectsLanding from "@/components/ProjectsLanding";
 
 export default function LandingPage() {
   return (
@@ -14,6 +15,7 @@ export default function LandingPage() {
         <HeaderLanding />
         <BannerLanding />
         <ServicesLanding />
+        <ProjectsLanding />
       </div>
     </div>
   );
