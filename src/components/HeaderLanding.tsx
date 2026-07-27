@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeaderLanding() {
   return (
-    <header className="w-full pt-6">
+    <header className="w-full pt-6 hidden md:block">
       <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative ">
         <nav className="flex justify-center gap-6 font-bold text-xl">
           <Link
