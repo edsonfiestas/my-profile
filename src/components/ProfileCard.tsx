@@ -481,6 +481,23 @@ export default function ProfileCard() {
                 </h4>
               </a>
               <a
+                href="/portfolio/landingPage"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+              >
+                <figure>
+                  <img
+                    src="/images/portfolio05.png"
+                    alt="Project 4"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </figure>
+                <h4 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/65 text-white p-4 rounded-lg z-50">
+                  LandingPage
+                </h4>
+              </a>
+              <a
                 href="/portfolio/dashboard"
                 target="_blank"
                 rel="noopener noreferrer"
