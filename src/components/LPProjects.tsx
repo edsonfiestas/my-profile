@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function ProjectsLanding() {
+export default function LPProjects() {
   return (
     <div className="w-full py-12">
       <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative grid grid-cols-4 gap-12">

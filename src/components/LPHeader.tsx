@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function HeaderLanding() {
+export default function LPHeader() {
   return (
     <header className="w-full pt-6 hidden md:block">
       <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative ">

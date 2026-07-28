@@ -2,23 +2,25 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import HeaderLanding from "@/components/HeaderLanding";
-import BannerLanding from "@/components/BannerLanding";
-import ServicesLanding from "@/components/ServicesLanding";
-import ProjectsLanding from "@/components/ProjectsLanding";
-import NavMobileLanding from "@/components/NavMobileLanding";
+import LPHeader from "@/components/LPHeader";
+import LPBanner from "@/components/LPBanner";
+import LPServices from "@/components/LPServices";
+import LPProjects from "@/components/LPProjects";
+import LPNavMobile from "@/components/LPNavMobile";
+import LPExperience from "@/components/LPExperience";
 
 export default function LandingPage() {
   return (
     <div className="relative w-full h-full min-h-screen bg-linear-to-r from-[#0A0D20] to-[#110E23] text-slate-300 pb-24 md:pb-0">
       {" "}
       <div className="w-full h-full flex flex-col">
-        <HeaderLanding />
-        <BannerLanding />
-        <ServicesLanding />
-        <ProjectsLanding />
+        <LPHeader />
+        <LPBanner />
+        <LPServices />
+        <LPProjects />
+        <LPExperience />
       </div>
-      <NavMobileLanding />
+      <LPNavMobile />
     </div>
   );
 }

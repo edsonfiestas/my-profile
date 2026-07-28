@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function BannerLanding() {
+export default function LPBanner() {
   return (
     <div className="w-full py-3 md:py-12">
       <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative flex flex-col-reverse md:flex-row gap-6 justify-center items-center">

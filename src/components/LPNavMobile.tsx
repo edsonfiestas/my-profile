@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function NavMobileLanding() {
+export default function LPNavMobile() {
   return (
     <div className="w-full fixed md:hidden bottom-0 left-0 right-0 z-50 bg-white px-6 py-6">
       <div className="flex gap-3 justify-between">
