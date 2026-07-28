@@ -7,7 +7,7 @@ export default function ProjectsLanding() {
   return (
     <div className="w-full py-12">
       <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative grid grid-cols-4 gap-12">
-        <div className="col-span-4 flex flex-col gap-1">
+        <div className="title-fade-up col-span-4 flex flex-col gap-1">
           <span className="opacity-0 animate-fade-in-up [animation-delay:0ms] text-xl uppercase bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
             My Work
           </span>
@@ -15,7 +15,7 @@ export default function ProjectsLanding() {
             Projects I've Worked On
           </h3>
         </div>
-        <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
           <a
             href="/portfolio/dashboard"
             target="_blank"
@@ -45,7 +45,7 @@ export default function ProjectsLanding() {
           </a>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
-        <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
           <a
             href="/portfolio/dashboard"
             target="_blank"
@@ -75,8 +75,7 @@ export default function ProjectsLanding() {
           </a>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
-
-        <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
           <a
             href="/portfolio/dashboard"
             target="_blank"
@@ -106,8 +105,7 @@ export default function ProjectsLanding() {
           </a>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
-
-        <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
           <a
             href="/portfolio/dashboard"
             target="_blank"

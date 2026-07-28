@@ -7,7 +7,7 @@ export default function ServicesLanding() {
   return (
     <div className="w-full border-t border-slate-800 py-12">
       <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative grid grid-cols-4 gap-12">
-        <div className="col-span-4 flex flex-col gap-1">
+        <div className="title-fade-up col-span-4 flex flex-col gap-1">
           <span className="opacity-0 animate-fade-in-up [animation-delay:0ms] text-xl uppercase bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
             What i do
           </span>
@@ -15,7 +15,7 @@ export default function ServicesLanding() {
             Services I Offer
           </h3>
         </div>
-        <div className="col-span-4 md:col-span-2 lg:col-span-1">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1">
           <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
             <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-purple-800 to-purple-600 text-slate-300">
@@ -63,7 +63,7 @@ export default function ServicesLanding() {
             </div>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-2 lg:col-span-1">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1">
           <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
             <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-blue-800 to-blue-600 text-slate-300">
@@ -111,7 +111,7 @@ export default function ServicesLanding() {
             </div>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-2 lg:col-span-1">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1">
           <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
             <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-purple-800 to-purple-600 text-slate-300">
@@ -159,7 +159,7 @@ export default function ServicesLanding() {
             </div>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-2 lg:col-span-1">
+        <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1">
           <div className="rounded-lg p-[4px] bg-linear-to-br from-[#2B2D45] to-[#0C0E23]">
             <div className="flex flex-col justify-center gap-6 text-lg rounded-lg px-6 py-9 bg-linear-to-b from-[#1F2138] to-[#0C0E23] text-center">
               <figure className="h-20 w-20 mb-3 mx-auto rounded-full flex justify-center items-center bg-linear-to-tl from-blue-800 to-blue-600 text-slate-300">
