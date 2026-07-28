@@ -5,36 +5,36 @@ import Link from "next/link";
 
 export default function LPHeader() {
   return (
-    <header className="w-full pt-6 hidden md:block">
+    <header className="w-full py-6 hidden md:block fixed top-0 left-0 right-0 z-50 bg-[#0A0D20]/50 backdrop-blur-sm">
       <div className="px-3 xl:px-0 w-full max-w-[1440px] mx-auto relative ">
         <nav className="flex justify-center gap-6 font-bold text-xl">
           <Link
-            href="http://localhost:3000/"
-            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            href="#home"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20]/0 hover:border-white/80 transition-colors duration-300"
           >
             About
           </Link>
           <Link
-            href="http://localhost:3000/"
-            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            href="#services"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20]/0 hover:border-white/80 transition-colors duration-300"
           >
             Services
           </Link>
           <Link
-            href="http://localhost:3000/portfolio"
-            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            href="#projects"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20]/0 hover:border-white/80 transition-colors duration-300"
           >
             Portfolio
           </Link>
           <Link
-            href="http://localhost:3000/contact"
-            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            href="#footer"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20]/0 hover:border-white/80 transition-colors duration-300"
           >
             Contact
           </Link>
           <div className="opacity-0 animate-fade-in-up [animation-delay:400ms] flex gap-3">
             <Link
-              href=""
+              href="#page-end"
               className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-500 text-white text-xl px-6 py-2 rounded-lg transition-transform duration-300 ease-out hover:scale-105 active:scale-95"
             >
               <span>Let´s Task</span>

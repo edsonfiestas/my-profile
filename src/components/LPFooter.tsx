@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function LPFooter() {
   return (
-    <footer className="w-full py-3 md:py-12">
+    <footer id="footer" className="w-full py-3 md:py-12">
       <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative">
         <div className=" flex flex-col lg:flex-row w-full">
           <div className="flex-none bg-linear-to-tl from-blue-600 to-purple-500 rounded-t-xl lg:rounded-t-none lg:!rounded-l-xl py-6 px-12">

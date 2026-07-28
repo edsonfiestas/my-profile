@@ -12,7 +12,7 @@ import LPFooter from "@/components/LPFooter";
 
 export default function LandingPage() {
   return (
-    <div className="relative w-full h-full min-h-screen bg-linear-to-r from-[#0A0D20] to-[#110E23] text-slate-300 pb-24 md:pb-0">
+    <div className="relative w-full h-full min-h-screen bg-linear-to-r from-[#0A0D20] to-[#110E23] text-slate-300 pb-24 md:pb-0 pt-0 md:pt-24">
       {" "}
       <div className="w-full h-full flex flex-col">
         <LPHeader />
@@ -21,6 +21,7 @@ export default function LandingPage() {
         <LPProjects />
         <LPExperience />
         <LPFooter />
+        <div id="page-end" />
       </div>
       <LPNavMobile />
     </div>

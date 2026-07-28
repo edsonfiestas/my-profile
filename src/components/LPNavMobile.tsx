@@ -23,7 +23,7 @@ export default function LPNavMobile() {
             />
           </svg>
         </Link>
-        <Link href="#home" className="text-black">
+        <Link href="#services" className="text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -39,7 +39,7 @@ export default function LPNavMobile() {
             />
           </svg>
         </Link>
-        <Link href="#home" className="text-black">
+        <Link href="#projects" className="text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -55,7 +55,7 @@ export default function LPNavMobile() {
             />
           </svg>
         </Link>
-        <Link href="#home" className="text-black">
+        <Link href="#footer" className="text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -71,7 +71,7 @@ export default function LPNavMobile() {
             />
           </svg>
         </Link>
-        <Link href="#home" className="text-black">
+        <Link href="#page-end" className="text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
