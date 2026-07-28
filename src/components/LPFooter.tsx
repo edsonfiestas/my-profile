@@ -7,8 +7,8 @@ export default function LPFooter() {
   return (
     <footer className="w-full py-3 md:py-12">
       <div className="px-6 xl:px-0 w-full max-w-[1440px] mx-auto relative">
-        <div className="flex w-full">
-          <div className="flex-none bg-linear-to-tl from-blue-600 to-purple-500 rounded-l-xl py-6 px-12">
+        <div className=" flex flex-col lg:flex-row w-full">
+          <div className="flex-none bg-linear-to-tl from-blue-600 to-purple-500 rounded-t-xl lg:rounded-t-none lg:rounded-l-xl py-6 px-12">
             <div className="flex flex-col w-full max-w-56 gap-3">
               <figure className="w-20 h-20 bg-white/30 rounded-full flex justify-center items-center text-white">
                 <svg
@@ -34,7 +34,7 @@ export default function LPFooter() {
               </p>
             </div>
           </div>
-          <div className="grow border-y border-slate-700 py-6 px-9">
+          <div className="grow border-x lg:border-x-none lg:border-y border-slate-700 py-6 px-9">
             <div className="grid grid-cols-2 gap-3">
               <input
                 type="text"
@@ -83,7 +83,7 @@ export default function LPFooter() {
               </div>
             </div>
           </div>
-          <div className="flex-none rounded-r-xl py-6 px-12 border-y border-r border-slate-700">
+          <div className="flex-none rounded-r-xl py-6 px-12 border-l lg:border-l-none border-r border-b lg:border-t border-slate-700">
             <div className="flex flex-col gap-6">
               <div className="flex gap-3 items-center">
                 <figure className="w-16 h-16 bg-white/10 rounded-full flex justify-center items-center">
