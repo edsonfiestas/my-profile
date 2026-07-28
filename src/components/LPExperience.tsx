@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function LPExperience() {
   return (
     <div className="w-full py-12">
-      <div className="bg-linear-to-l from-blue-600 to-pink-500 text-white rounded-xl py-6 w-full max-w-[1440px] mx-auto relative grid grid-cols-4">
+      <div className="bg-linear-to-l from-blue-600 to-purple-600 text-white rounded-xl py-6 w-full max-w-[1440px] mx-auto relative grid grid-cols-4">
         <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 px-12 border-r border-white/70">
           <div className="flex gap-6 items-center">
             <figure>

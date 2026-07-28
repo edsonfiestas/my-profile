@@ -464,7 +464,7 @@ export default function ProfileCard() {
             </h2>
             <div className="grid grid-cols-3 gap-3">
               <a
-                href="/portfolio/ecomerce"
+                href="/portfolio/ecommerce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative rounded-xl overflow-hidden aspect-square cursor-pointer group block"

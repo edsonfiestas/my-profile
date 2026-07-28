@@ -8,6 +8,7 @@ import LPServices from "@/components/LPServices";
 import LPProjects from "@/components/LPProjects";
 import LPNavMobile from "@/components/LPNavMobile";
 import LPExperience from "@/components/LPExperience";
+import LPFooter from "@/components/LPFooter";
 
 export default function LandingPage() {
   return (
@@ -19,6 +20,7 @@ export default function LandingPage() {
         <LPServices />
         <LPProjects />
         <LPExperience />
+        <LPFooter />
       </div>
       <LPNavMobile />
     </div>

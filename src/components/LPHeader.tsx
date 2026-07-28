@@ -10,25 +10,25 @@ export default function LPHeader() {
         <nav className="flex justify-center gap-6 font-bold text-xl">
           <Link
             href="http://localhost:3000/"
-            className="px-6 py-2 border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
           >
             About
           </Link>
           <Link
             href="http://localhost:3000/"
-            className="px-6 py-2 border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
           >
             Services
           </Link>
           <Link
             href="http://localhost:3000/portfolio"
-            className="px-6 py-2 border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
           >
             Portfolio
           </Link>
           <Link
             href="http://localhost:3000/contact"
-            className="px-6 py-2 border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
+            className="px-6 py-2 rounded-lg border-2 border-[#0A0D20] hover:border-white/80 transition-colors duration-300"
           >
             Contact
           </Link>

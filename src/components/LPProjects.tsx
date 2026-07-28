@@ -16,123 +16,123 @@ export default function LPProjects() {
           </h3>
         </div>
         <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
-          <a
+          <Link
             href="/portfolio/dashboard"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+            className="border border-slate-700 rounded-xl overflow-hidden aspect-square cursor-pointer group block"
           >
             <figure>
               <img
-                src="/images/portfolio04.png"
+                src="/images/portfolio001.jpg"
                 alt="Project 4"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
               />
             </figure>
-          </a>
+          </Link>
           <div>
             <span className="inline-block text-slate-400 rounded border border-slate-500 px-3 py-1">
               Dashboard
             </span>
           </div>
-          <a
+          <Link
             href="/portfolio/dashboard"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-xl"
           >
             Analytics Dashboard
-          </a>
+          </Link>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
         <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
-          <a
-            href="/portfolio/dashboard"
+          <Link
+            href="/portfolio/landingPage"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+            className="border border-slate-700 rounded-xl overflow-hidden aspect-square cursor-pointer group block"
           >
             <figure>
               <img
-                src="/images/portfolio05.png"
+                src="/images/portfolio002.jpg"
                 alt="Project 4"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
               />
             </figure>
-          </a>
+          </Link>
           <div>
             <span className="inline-block text-slate-400 rounded border border-slate-500 px-3 py-1">
               Website
             </span>
           </div>
-          <a
-            href="/portfolio/dashboard"
+          <Link
+            href="/portfolio/landingPage"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-xl"
           >
             Landing Page
-          </a>
+          </Link>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
         <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
-          <a
-            href="/portfolio/dashboard"
+          <Link
+            href="/portfolio/appComponents"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+            className="border border-slate-700 rounded-xl overflow-hidden aspect-square cursor-pointer group block"
           >
             <figure>
               <img
-                src="/images/portfolio01.png"
+                src="/images/portfolio003.jpg"
                 alt="Project 4"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
               />
             </figure>
-          </a>
+          </Link>
           <div>
             <span className="inline-block text-slate-400 rounded border border-slate-500 px-3 py-2">
               Dashboard Elements
             </span>
           </div>
-          <a
-            href="/portfolio/dashboard"
+          <Link
+            href="/portfolio/appComponents"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-xl"
           >
             Components Library
-          </a>
+          </Link>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
         <div className="box-fade-up col-span-4 md:col-span-2 lg:col-span-1 flex flex-col gap-3">
-          <a
-            href="/portfolio/dashboard"
+          <Link
+            href="/portfolio/ecommerce"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl overflow-hidden aspect-square cursor-pointer group block"
+            className="border border-slate-700 rounded-xl overflow-hidden aspect-square cursor-pointer group block"
           >
             <figure>
               <img
-                src="/images/portfolio03.png"
+                src="/images/portfolio004.jpg"
                 alt="Project 4"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
               />
             </figure>
-          </a>
+          </Link>
           <div>
             <span className="inline-block text-slate-400 rounded border border-slate-500 px-3 py-2">
               Website
             </span>
           </div>
-          <a
-            href="/portfolio/dashboard"
+          <Link
+            href="/portfolio/ecommerce"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-xl"
           >
             Ecommerce Website
-          </a>
+          </Link>
           <p className="text-slate-400">UI/UX Design</p>
         </div>
       </div>
