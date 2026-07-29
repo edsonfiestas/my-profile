@@ -183,8 +183,12 @@ export default function Sidebar() {
       <aside className="hover:w-80 w-22 overflow-hidden flex gap-2 h-[calc(100vh-(--spacing(8)))] bg-white rounded-2xl p-2 transition-all duration-500 ease-out">
         <div className="flex flex-col gap-8 justify-between h-full p-4">
           <div className="flex flex-col gap-8">
-            <figure className="w-10 h-10 rounded-lg bg-blue-500 text-white flex justify-center items-center font-bold text-2xl">
-              Q
+            <figure className="w-10 h-10 flex justify-center items-center">
+              <img
+                src="/logo-isotipo.svg"
+                alt="Logotipo"
+                className="w-full max-w-20 h-auto object-contain"
+              />
             </figure>
             <nav className="flex flex-col gap-2">
               <a

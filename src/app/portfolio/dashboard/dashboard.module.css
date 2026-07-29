@@ -1,0 +1,10 @@
+/* src/app/portafolio/dashboard/dashboard.module.css */
+.miContenedor {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+.titulo {
+  color: #A9D7CD;
+  font-size: 24px;
+}

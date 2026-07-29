@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Bebas_Neue, Heebo } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -9,6 +9,18 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const bebasNeue = Bebas_Neue({
+  variable: "--font-bebas-neue",
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const heebo = Heebo({
+  variable: "--font-heebo",
+  weight: "variable",
   subsets: ["latin"],
 });
 
@@ -26,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500`}
+        className={`${geistSans.variable} ${geistMono.variable} ${bebasNeue.variable} ${heebo.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500`}
       >
         {children}
       </body>
