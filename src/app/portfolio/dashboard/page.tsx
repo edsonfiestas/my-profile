@@ -7,16 +7,16 @@ const DashboardContent = () => {
   return (
     <>
       <div className="flex flex-row w-full h-screen gap-4 p-4 bg-slate-300">
-        <div className="flex-none">
+        <div className="hidden lg:block flex-none">
           <Sidebar />
         </div>
         <div className="flex-1">
-          <div className=" bg-white rounded-2xl p-8 h-[calc(100vh-(--spacing(8)))]">
+          <div className=" bg-white rounded-2xl p-4 md:p-8 h-[calc(100vh-(--spacing(8)))]">
             <div className="flex flex-col gap-4 h-full w-full">
               <h1 className="font-bold text-2xl flex-none">Dashboard</h1>
               <div className="flex-1 overflow-y-auto overflow-x-hidden scrollbar min-h-0">
-                <div className=" grid grid-cols-6 gap-6">
-                  <div className="col-span-2 flex">
+                <div className=" grid grid-cols-6 gap-4 md:gap-6">
+                  <div className="col-span-6 md:col-span-3 lg:col-span-2 flex">
                     <section className="w-full flex flex-col border border-slate-300 rounded-xl overflow-hidden">
                       <div className="flex justify-between gap-6 items-center border-b border-slate-300 p-4">
                         <h4 className="flex items-center gap-2">
@@ -276,7 +276,7 @@ const DashboardContent = () => {
                       </div>
                     </section>
                   </div>
-                  <div className="col-span-2 flex flex-col gap-6">
+                  <div className="col-span-6 md:col-span-3 lg:col-span-2 flex flex-col gap-6">
                     <div className="flex-1 border border-slate-300 rounded-xl p-6">
                       uno
                     </div>
@@ -284,7 +284,7 @@ const DashboardContent = () => {
                       dos
                     </div>
                   </div>
-                  <div className="col-span-2 flex">
+                  <div className="col-span-6 md:col-span-3 lg:col-span-2 flex">
                     <section className="w-full flex flex-col border border-slate-300 rounded-xl overflow-hidden">
                       <div className="flex justify-between gap-6 items-center border-b border-slate-300 p-4">
                         <h4 className="flex items-center gap-2">
@@ -492,17 +492,17 @@ const DashboardContent = () => {
                       </div>
                     </section>
                   </div>
-                  <div className="col-span-2 flex">
+                  <div className="col-span-6 md:col-span-3 lg:col-span-2 flex">
                     <div className="w-full border border-slate-300 rounded-xl p-6">
                       cinco
                     </div>
                   </div>
-                  <div className="col-span-2 flex">
+                  <div className="col-span-6 md:col-span-3 lg:col-span-2 flex">
                     <div className="w-full border border-slate-300 rounded-xl p-6">
                       seis
                     </div>
                   </div>
-                  <div className="col-span-2 flex">
+                  <div className="col-span-6 md:col-span-3 lg:col-span-2 flex">
                     <div className="w-full border border-slate-300 rounded-xl p-6">
                       siete
                     </div>
