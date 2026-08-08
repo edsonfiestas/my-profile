@@ -168,12 +168,12 @@ export default function HeaderEcomerce() {
                   <nav className="flex flex-col gap-9">
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-01.jpg"
+                            src="/images/ecommerce-ropa-01.jpg"
                             alt="Camiseta Básica Algodón"
                             className="w-full h-full object-cover"
                           />
@@ -188,12 +188,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-02.jpg"
+                            src="/images/ecommerce-ropa-02.jpg"
                             alt="Jeans Clásico Ajuste Recto"
                             className="w-full h-full object-cover"
                           />
@@ -208,12 +208,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-03.jpg"
+                            src="/images/ecommerce-ropa-03.jpg"
                             alt="Sudadera con Capucha Unisex"
                             className="w-full h-full object-cover"
                           />
@@ -228,12 +228,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-04.jpg"
+                            src="/images/ecommerce-ropa-04.jpg"
                             alt="Vestido Floral Veraniego"
                             className="w-full h-full object-cover"
                           />
@@ -248,12 +248,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-05.jpg"
+                            src="/images/ecommerce-ropa-05.jpg"
                             alt="Chaleco Ligero Acolchado"
                             className="w-full h-full object-cover"
                           />
@@ -268,12 +268,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-06.jpg"
+                            src="/images/ecommerce-ropa-06.jpg"
                             alt="Short Deportivo Elástico"
                             className="w-full h-full object-cover"
                           />
@@ -332,12 +332,12 @@ export default function HeaderEcomerce() {
                   <nav className="flex flex-col gap-9">
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-06.jpg"
+                            src="/images/ecommerce-ropa-06.jpg"
                             alt="Camiseta Básica Algodón"
                             className="w-full h-full object-cover"
                           />
@@ -356,12 +356,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-05.jpg"
+                            src="/images/ecommerce-ropa-05.jpg"
                             alt="Jeans Clásico Ajuste Recto"
                             className="w-full h-full object-cover"
                           />
@@ -380,12 +380,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-04.jpg"
+                            src="/images/ecommerce-ropa-04.jpg"
                             alt="Sudadera con Capucha Unisex"
                             className="w-full h-full object-cover"
                           />
@@ -404,12 +404,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-03.jpg"
+                            src="/images/ecommerce-ropa-03.jpg"
                             alt="Vestido Floral Veraniego"
                             className="w-full h-full object-cover"
                           />
@@ -424,12 +424,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-02.jpg"
+                            src="/images/ecommerce-ropa-02.jpg"
                             alt="Chaleco Ligero Acolchado"
                             className="w-full h-full object-cover"
                           />
@@ -444,12 +444,12 @@ export default function HeaderEcomerce() {
                     </article>
                     <article className="">
                       <a
-                        href="/portfolio/ecomerce/detail"
+                        href="/portfolio/ecommerce/detail"
                         className="flex flex-row hover:bg-slate-100 items-center gap-3"
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecomerce-ropa-01.jpg"
+                            src="/images/ecommerce-ropa-01.jpg"
                             alt="Short Deportivo Elástico"
                             className="w-full h-full object-cover"
                           />
@@ -566,7 +566,7 @@ export default function HeaderEcomerce() {
                     </div>
                     <div>
                       <img
-                        src="/images/ecomerce-ropa-01.jpg"
+                        src="/images/ecommerce-ropa-01.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -701,7 +701,7 @@ export default function HeaderEcomerce() {
               {/* BOTON MENU RESPONSIVE Y BUSCADOR TABLET FIN*/}
               {/* LOGOTIPO INICIO*/}
               <div className="">
-                <a href="/portfolio/ecomerce">
+                <a href="/portfolio/ecommerce">
                   <img
                     src="/logo-apaisado.svg"
                     alt="Logotipo"
@@ -761,7 +761,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecomerce-ropa-01.jpg"
+                        src="/images/ecommerce-ropa-01.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -778,43 +778,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -827,43 +827,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -876,43 +876,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -925,43 +925,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -979,7 +979,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecomerce-ropa-02.jpg"
+                        src="/images/ecommerce-ropa-02.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -996,43 +996,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1045,43 +1045,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1094,43 +1094,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1143,43 +1143,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1197,7 +1197,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecomerce-ropa-05.jpg"
+                        src="/images/ecommerce-ropa-05.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1214,43 +1214,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1263,43 +1263,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1312,43 +1312,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1361,43 +1361,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1415,7 +1415,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecomerce-ropa-03.jpg"
+                        src="/images/ecommerce-ropa-03.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1432,43 +1432,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1481,43 +1481,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1530,43 +1530,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1579,43 +1579,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1633,7 +1633,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecomerce-ropa-04.jpg"
+                        src="/images/ecommerce-ropa-04.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1650,43 +1650,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1699,43 +1699,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1748,43 +1748,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1797,43 +1797,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1851,7 +1851,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecomerce-ropa-06.jpg"
+                        src="/images/ecommerce-ropa-06.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -1868,43 +1868,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1917,43 +1917,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -1966,43 +1966,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
@@ -2015,43 +2015,43 @@ export default function HeaderEcomerce() {
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Polos
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Pantalones
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatillas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Poleras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Gorras
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
                               </a>
                               <a
-                                href="/portfolio/ecomerce/category"
+                                href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Zapatos
