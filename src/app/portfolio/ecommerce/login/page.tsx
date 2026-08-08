@@ -531,7 +531,6 @@ export default function EcomerceLoginPage() {
                     </p>
                   )}
                 </div>
-
                 <button
                   type="submit"
                   disabled={registerButtonDisabled}
