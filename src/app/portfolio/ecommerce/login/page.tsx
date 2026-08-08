@@ -207,7 +207,7 @@ export default function EcomerceLoginPage() {
 
   return (
     <div className="w-full h-full min-h-screen font-body text-slate-600">
-      <div className="grid grid-cols-2 overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden">
         {/* ---------- FORM INGRESAR (login) ---------- */}
         <div
           id="form-ingresar"
