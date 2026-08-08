@@ -189,9 +189,9 @@ export default function EcomerceLoginPage() {
 
   // Clases del botón según su estado activo/inactivo
   const submitButtonClass = (disabled: boolean) =>
-    `h-12 transition-colors duration-200 ${
+    `h-12 transition-colors uppercase duration-200 ${
       disabled
-        ? "bg-slate-400 text-slate-600 border border-slate-400 cursor-normal"
+        ? "bg-slate-300 text-slate-400 border border-slate-300 cursor-normal"
         : "button-primary-color text-white cursor-pointer"
     }`;
 
@@ -206,14 +206,14 @@ export default function EcomerceLoginPage() {
   };
 
   return (
-    <div className="w-full h-full min-h-screen text-slate-600">
+    <div className="w-full h-full min-h-screen font-body text-slate-600">
       <div className="grid grid-cols-2 overflow-hidden">
         {/* ---------- FORM INGRESAR (login) ---------- */}
         <div
           id="form-ingresar"
           className={panelClass(displayMode === "login", "left")}
         >
-          <section className="px-3 xl:px-0 py-9 max-w-[420px] h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-between">
+          <section className="px-3 xl:px-0 py-9 max-w-xs h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-between">
             <div className="justify-center items-center flex">
               <img
                 src="/logo-apaisado.svg"
@@ -222,7 +222,7 @@ export default function EcomerceLoginPage() {
               />
             </div>
             <div>
-              <h2 className="text-center text-2xl font-bold uppercase text-slate-900 mb-9">
+              <h2 className="text-center font-heading text-4xl uppercase text-slate-900 mb-6">
                 Ingresar con
               </h2>
               <div className="flex justify-center items-center gap-9 mb-6">
@@ -367,14 +367,14 @@ export default function EcomerceLoginPage() {
           className={`bg-primary-color text-white ${panelClass(displayMode === "login", "right")}`}
         >
           <section className="px-3 xl:px-0 py-9 max-w-[420px] h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-center items-center">
-            <h2 className="text-center text-2xl font-bold uppercase">
+            <h2 className="text-center font-heading text-5xl uppercase">
               Hola Nuevo usuario
             </h2>
             <p className="text-xl">Si aun no eres parte de este mundo</p>
             <button
               id="boton-registrarse"
               onClick={() => switchTo("register")}
-              className="hover:bg-white border-2 border-white rounded px-9 py-2 text-white hover:text-black cursor-pointer transition-colors duration-200"
+              className="hover:bg-white border-2 border-white rounded px-9 py-2 text-white hover:text-black uppercase cursor-pointer transition-colors duration-200"
             >
               Registrate
             </button>
@@ -387,14 +387,14 @@ export default function EcomerceLoginPage() {
           className={`bg-primary-color text-white ${panelClass(displayMode === "register", "left")}`}
         >
           <section className="px-3 xl:px-0 py-9 max-w-[420px] h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-center items-center">
-            <h2 className="text-center text-2xl font-bold uppercase">
+            <h2 className="text-center font-heading text-5xl uppercase">
               Usuario
             </h2>
             <p className="text-xl">Si ya eres usuario porfavor ingresa</p>
             <button
               id="boton-logearse"
               onClick={() => switchTo("login")}
-              className="hover:bg-white border-2 border-white rounded px-9 py-2 text-white hover:text-black cursor-pointer transition-colors duration-200"
+              className="hover:bg-white border-2 border-white rounded px-9 py-2 text-white hover:text-black uppercase cursor-pointer transition-colors duration-200"
             >
               Ingresar
             </button>
@@ -406,7 +406,7 @@ export default function EcomerceLoginPage() {
           id="form-registrarse"
           className={panelClass(displayMode === "register", "right")}
         >
-          <section className="px-3 xl:px-0 py-9 max-w-[420px] h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-between">
+          <section className="px-3 xl:px-0 py-9 max-w-xs h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-between">
             <div className="justify-center items-center flex">
               <img
                 src="/logo-apaisado.svg"
@@ -415,7 +415,7 @@ export default function EcomerceLoginPage() {
               />
             </div>
             <div>
-              <h2 className="text-center text-2xl font-bold uppercase text-slate-900 mb-9">
+              <h2 className="text-center font-heading text-4xl uppercase text-slate-900 mb-9">
                 Registrarse
               </h2>
               <form
