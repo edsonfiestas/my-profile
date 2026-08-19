@@ -173,7 +173,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-01.jpg"
+                            src="/images/ecomerce-ropa-01.jpg"
                             alt="Camiseta Básica Algodón"
                             className="w-full h-full object-cover"
                           />
@@ -193,7 +193,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-02.jpg"
+                            src="/images/ecomerce-ropa-02.jpg"
                             alt="Jeans Clásico Ajuste Recto"
                             className="w-full h-full object-cover"
                           />
@@ -213,7 +213,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-03.jpg"
+                            src="/images/ecomerce-ropa-03.jpg"
                             alt="Sudadera con Capucha Unisex"
                             className="w-full h-full object-cover"
                           />
@@ -233,7 +233,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-04.jpg"
+                            src="/images/ecomerce-ropa-04.jpg"
                             alt="Vestido Floral Veraniego"
                             className="w-full h-full object-cover"
                           />
@@ -253,7 +253,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-05.jpg"
+                            src="/images/ecomerce-ropa-05.jpg"
                             alt="Chaleco Ligero Acolchado"
                             className="w-full h-full object-cover"
                           />
@@ -273,7 +273,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-06.jpg"
+                            src="/images/ecomerce-ropa-06.jpg"
                             alt="Short Deportivo Elástico"
                             className="w-full h-full object-cover"
                           />
@@ -337,14 +337,14 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-06.jpg"
+                            src="/images/ecomerce-ropa-06.jpg"
                             alt="Camiseta Básica Algodón"
                             className="w-full h-full object-cover"
                           />
                         </figure>
                         <div className="flex flex-col gap-1">
                           <span>
-                            <small className="bg-secondary-color text-teal-900 mb-3 inline-block px-3 py-1 rounded-lg">
+                            <small className="bg-ecommerce-secondary text-teal-900 mb-3 inline-block px-3 py-1 rounded-lg">
                               Novedades
                             </small>
                           </span>
@@ -361,14 +361,14 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-05.jpg"
+                            src="/images/ecomerce-ropa-05.jpg"
                             alt="Jeans Clásico Ajuste Recto"
                             className="w-full h-full object-cover"
                           />
                         </figure>
                         <div className="flex flex-col gap-1">
                           <span>
-                            <small className="bg-primary-color text-red-100 mb-3 inline-block px-3 py-1 rounded-lg">
+                            <small className="bg-ecommerce-primary text-red-100 mb-3 inline-block px-3 py-1 rounded-lg">
                               De remate
                             </small>
                           </span>
@@ -385,14 +385,14 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-04.jpg"
+                            src="/images/ecomerce-ropa-04.jpg"
                             alt="Sudadera con Capucha Unisex"
                             className="w-full h-full object-cover"
                           />
                         </figure>
                         <div className="flex flex-col gap-1">
                           <span>
-                            <small className="bg-tertiary-color text-yellow-900 mb-3 inline-block px-3 py-1 rounded-lg">
+                            <small className="bg-ecommerce-tertiary text-yellow-900 mb-3 inline-block px-3 py-1 rounded-lg">
                               En oferta
                             </small>
                           </span>
@@ -409,7 +409,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-03.jpg"
+                            src="/images/ecomerce-ropa-03.jpg"
                             alt="Vestido Floral Veraniego"
                             className="w-full h-full object-cover"
                           />
@@ -429,7 +429,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-02.jpg"
+                            src="/images/ecomerce-ropa-02.jpg"
                             alt="Chaleco Ligero Acolchado"
                             className="w-full h-full object-cover"
                           />
@@ -449,7 +449,7 @@ export default function HeaderEcomerce() {
                       >
                         <figure className="w-32 shrink-0">
                           <img
-                            src="/images/ecommerce-ropa-01.jpg"
+                            src="/images/ecomerce-ropa-01.jpg"
                             alt="Short Deportivo Elástico"
                             className="w-full h-full object-cover"
                           />
@@ -566,7 +566,7 @@ export default function HeaderEcomerce() {
                     </div>
                     <div>
                       <img
-                        src="/images/ecommerce-ropa-01.jpg"
+                        src="/images/ecomerce-ropa-01.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
@@ -607,10 +607,10 @@ export default function HeaderEcomerce() {
       )}
       {/* MENU PRINCIPAL PARA RESPONSIVE FIN*/}
       {/* HEADER INICIO*/}
-      <header className="bg-tertiary-color w-full">
+      <header className="bg-ecommerce-tertiary w-full text-slate-600">
         <div className="flex flex-col w-full">
           {/* CARRUSEL INICIO*/}
-          <div className="py-3 bg-secondary-color text-teal-800">
+          <div className="py-3 bg-ecommerce-secondary text-teal-800">
             <div className="carrusel-top">
               <div className="carrusel-track font-semibold text-xs tracking-wider uppercase">
                 <span>Participa para ganar el kit "Hecho en verano"</span>
@@ -714,42 +714,42 @@ export default function HeaderEcomerce() {
               <nav ref={navRef} className="hidden xl:flex gap-3 ">
                 <a
                   href="#"
-                  className="button-secondary-border-color border-4 px-3 py-1"
+                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
                   onClick={toggleMenu("hombres")}
                 >
                   Hombres
                 </a>
                 <a
                   href="#"
-                  className="button-secondary-border-color border-4 px-3 py-1"
+                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
                   onClick={toggleMenu("mujeres")}
                 >
                   Mujeres
                 </a>
                 <a
                   href="#"
-                  className="button-secondary-border-color border-4 px-3 py-1"
+                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
                   onClick={toggleMenu("ninos")}
                 >
                   Niños
                 </a>
                 <a
                   href="#"
-                  className="button-secondary-border-color border-4 px-3 py-1"
+                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
                   onClick={toggleMenu("outlet")}
                 >
                   Outlet
                 </a>
                 <a
                   href="#"
-                  className="button-secondary-border-color border-4 px-3 py-1"
+                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
                   onClick={toggleMenu("companias")}
                 >
                   Compañías
                 </a>
                 <a
                   href="#"
-                  className="button-secondary-border-color border-4 px-3 py-1"
+                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
                   onClick={toggleMenu("tiendas")}
                 >
                   Tiendas
@@ -761,19 +761,19 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecommerce-ropa-01.jpg"
+                        src="/images/ecomerce-ropa-01.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
                     </section>
                     <section className="flex-1">
                       <div className="flex flex-col gap-6">
-                        <h3 className="uppercase pb-3 text-lg text-gray-900 font-bold border-b border-slate-600">
+                        <h3 className="uppercase pb-3 text-lg text-slate-600 font-bold border-b border-slate-600">
                           Hombres
                         </h3>
                         <div className="grid grid-cols-8">
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-slate-600 font-bold mb-6">
                               Verano
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -781,74 +781,31 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Polos (manga corta)
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Camisas de lino
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Bermudas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Zapatillas urbanas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Correas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatos
-                              </a>
-                            </nav>
-                          </div>
-                          <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Primavera
-                            </h4>
-                            <nav className="flex flex-col gap-3">
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Polos
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Pantalones
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatillas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Poleras
+                                Sandalias
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
@@ -860,18 +817,12 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatos
+                                Trajes de baño
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-slate-600 font-bold mb-6">
                               Otoño
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -879,48 +830,48 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Camisas manga larga
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Poleras cuello redondo
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Chompas ligeras
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Casacas livianas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Jeans
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Bufandas ligeras
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Chalecos
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-slate-600 font-bold mb-6">
                               Invierno
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -928,43 +879,92 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Casacas gruesas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Abrigos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Chompas de lana
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Poleras térmicas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Pantalones de vestir
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Botas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Blazers de paño
+                              </a>
+                            </nav>
+                          </div>
+                          <div className="col-span-2">
+                            <h4 className="uppercase text-slate-600 font-bold mb-6">
+                              Primavera
+                            </h4>
+                            <nav className="flex flex-col gap-3">
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Camisas manga larga livianas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Poleras y polos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Chompas finas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Casacas cortavientos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Pantalones chinos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Zapatillas o mocasines
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Accesorios livianos
                               </a>
                             </nav>
                           </div>
@@ -979,19 +979,19 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecommerce-ropa-02.jpg"
+                        src="/images/ecomerce-ropa-02.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
                     </section>
                     <section className="flex-1">
                       <div className="flex flex-col gap-6">
-                        <h3 className="uppercase pb-3 text-lg text-gray-900 font-bold border-b border-slate-600">
+                        <h3 className="uppercase pb-3 text-lg text-gray-600 font-bold border-b border-slate-600">
                           Mujeres
                         </h3>
                         <div className="grid grid-cols-8">
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
                               Verano
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -999,97 +999,48 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Vestidos ligeros
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Blusas manga corta
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Tops y crop tops
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Shorts / faldas cortas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Enterizos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Sandalias / plataformas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Trajes de baño
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Primavera
-                            </h4>
-                            <nav className="flex flex-col gap-3">
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Polos
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Pantalones
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatillas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Poleras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Gorras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Correas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatos
-                              </a>
-                            </nav>
-                          </div>
-                          <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
                               Otoño
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -1097,48 +1048,48 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Blusas manga larga
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Chompas livianas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Jeans
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Casacas de mezclilla
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Botines bajos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Bufandas finas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Faldas midi con medias
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
                               Invierno
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -1146,43 +1097,92 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Abrigos largos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Casacas acolchadas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Chompas de lana gruesa
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Pantalones de vestir
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Botas altas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Gorros, bufandas y guantes
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Blazers estructurados
+                              </a>
+                            </nav>
+                          </div>
+                          <div className="col-span-2">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Primavera
+                            </h4>
+                            <nav className="flex flex-col gap-3">
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Blusas florales
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Vestidos midi frescos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Cárdigans finos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Faldas plisadas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Jeans claros
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Sandalias o flats
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Accesorios livianos
                               </a>
                             </nav>
                           </div>
@@ -1197,19 +1197,19 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecommerce-ropa-05.jpg"
+                        src="/images/ecomerce-ropa-05.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
                     </section>
                     <section className="flex-1">
                       <div className="flex flex-col gap-6">
-                        <h3 className="uppercase pb-3 text-lg text-gray-900 font-bold border-b border-slate-600">
+                        <h3 className="uppercase pb-3 text-lg text-gray-600 font-bold border-b border-slate-600">
                           Niños
                         </h3>
                         <div className="grid grid-cols-8">
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
                               Verano
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -1217,97 +1217,48 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Polos manga corta
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Shorts / bermudas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Enterizos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Vestidos ligeros
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Sandalias
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Trajes de baño
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Conjuntos de dos piezas
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Primavera
-                            </h4>
-                            <nav className="flex flex-col gap-3">
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Polos
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Pantalones
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatillas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Poleras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Gorras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Correas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatos
-                              </a>
-                            </nav>
-                          </div>
-                          <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
                               Otoño
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -1315,48 +1266,48 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Poleras manga larga
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Chompas livianas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Casacas cortavientos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Jeans / pantalones de drill
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Vestidos midi con medias
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Buzos deportivos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Zapatillas casuales cerradas
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
                               Invierno
                             </h4>
                             <nav className="flex flex-col gap-3">
@@ -1364,43 +1315,92 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Casacas acolchadas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Chompas gruesas de lana
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Polos térmicos manga larga
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Pantalones de buzo
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Botas o zapatillas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Gorros, bufandas y guantes
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Conjuntos térmicos
+                              </a>
+                            </nav>
+                          </div>
+                          <div className="col-span-2">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Primavera
+                            </h4>
+                            <nav className="flex flex-col gap-3">
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Poleras y polos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Vestidos florales livianos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Cárdigans o chompas finas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Shorts o pantalones capri
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Casacas ligeras cortavientos
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Zapatillas o sandalias
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Conjuntos coordinados
                               </a>
                             </nav>
                           </div>
@@ -1415,20 +1415,20 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecommerce-ropa-03.jpg"
+                        src="/images/ecomerce-ropa-03.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
                     </section>
                     <section className="flex-1">
                       <div className="flex flex-col gap-6">
-                        <h3 className="uppercase pb-3 text-lg text-gray-900 font-bold border-b border-slate-600">
+                        <h3 className="uppercase pb-3 text-lg text-gray-600 font-bold border-b border-slate-600">
                           Outlets
                         </h3>
                         <div className="grid grid-cols-8">
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Verano
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Ropa
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
@@ -1441,13 +1441,7 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatillas
+                                Camisas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
@@ -1459,13 +1453,68 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Chompas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Casacas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Pantalones
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
                                 Correas
+                              </a>
+                            </nav>
+                          </div>
+                          <div className="col-span-2">
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Calzado
+                            </h4>
+                            <nav className="flex flex-col gap-3">
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Zapatillas urbanas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Zapatillas deportivas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Zapatos formales
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Botas
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Sandalias
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Mocasines
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
@@ -1476,34 +1525,10 @@ export default function HeaderEcomerce() {
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Primavera
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Accesorios
                             </h4>
                             <nav className="flex flex-col gap-3">
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Polos
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Pantalones
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatillas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Poleras
-                              </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
@@ -1520,99 +1545,74 @@ export default function HeaderEcomerce() {
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Billeteras
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Mochilas / morrales
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Lentes de sol
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Relojes
+                              </a>
+                              <a
+                                href="/portfolio/ecommerce/category"
+                                className="hover:font-bold"
+                              >
+                                Collares
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Otoño
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Deportivo
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Polos deportivos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Shorts deportivos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Buzos / conjuntos
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Zapatillas running
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Medias deportivas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatos
-                              </a>
-                            </nav>
-                          </div>
-                          <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Invierno
-                            </h4>
-                            <nav className="flex flex-col gap-3">
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Polos
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Pantalones
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Zapatillas
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Poleras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Gorras
-                              </a>
-                              <a
-                                href="/portfolio/ecommerce/category"
-                                className="hover:font-bold"
-                              >
-                                Correas
+                                Accesorios fitness
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
@@ -1633,204 +1633,204 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecommerce-ropa-04.jpg"
+                        src="/images/ecomerce-ropa-04.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />
                     </section>
                     <section className="flex-1">
                       <div className="flex flex-col gap-6">
-                        <h3 className="uppercase pb-3 text-lg text-gray-900 font-bold border-b border-slate-600">
+                        <h3 className="uppercase pb-3 text-lg text-gray-600 font-bold border-b border-slate-600">
                           Compañias
                         </h3>
                         <div className="grid grid-cols-8">
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Verano
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Deportivas
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Nike
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Adidas
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Puma
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                New Balance
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Under Armour
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Reebok
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Converse
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Primavera
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Casual / Urbana
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Levi's
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Tommy Hilfiger
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Calvin Klein
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Lacoste
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Vans
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Converse
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                TopyTop
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Otoño
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Formal / Premium
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Ralph Lauren
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Hugo Boss
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Diesel
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Guess
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Aldo
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Kenneth Cole
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatos
+                                Dior
                               </a>
                             </nav>
                           </div>
                           <div className="col-span-2">
-                            <h4 className="uppercase text-gray-900 font-bold mb-6">
-                              Invierno
+                            <h4 className="uppercase text-gray-600 font-bold mb-6">
+                              Locales / Emergentes
                             </h4>
                             <nav className="flex flex-col gap-3">
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Polos
+                                Hiraoka Basics
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Pantalones
+                                Índice
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Zapatillas
+                                Basement
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Poleras
+                                Anda
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Gorras
+                                Colorshop
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
                                 className="hover:font-bold"
                               >
-                                Correas
+                                Rockford
                               </a>
                               <a
                                 href="/portfolio/ecommerce/category"
@@ -1851,7 +1851,7 @@ export default function HeaderEcomerce() {
                   <div className="flex flex-row gap-12">
                     <section className="flex-none">
                       <img
-                        src="/images/ecommerce-ropa-06.jpg"
+                        src="/images/ecomerce-ropa-06.jpg"
                         alt="Edson"
                         className="w-sm h-auto object-cover"
                       />

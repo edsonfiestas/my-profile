@@ -189,10 +189,10 @@ export default function EcomerceLoginPage() {
 
   // Clases del botón según su estado activo/inactivo
   const submitButtonClass = (disabled: boolean) =>
-    `h-12 transition-colors uppercase duration-200 ${
+    `h-12 transition-colors rounded uppercase duration-200 ${
       disabled
-        ? "bg-slate-300 text-slate-400 border border-slate-300 cursor-normal"
-        : "button-primary-color text-white cursor-pointer"
+        ? "bg-ecommerce-primary/30 text-ecommerce-secondary/80 border border-ecommerce-primary/0 cursor-normal"
+        : "bg-ecommerce-primary hover:bg-ecommerce-primary/80 text-white cursor-pointer"
     }`;
 
   // Clase compartida para el efecto de hidden <-> visible
@@ -206,7 +206,7 @@ export default function EcomerceLoginPage() {
   };
 
   return (
-    <div className="w-full h-full min-h-screen font-body text-slate-600">
+    <div className="w-full h-full min-h-screen font-body text-slate-600 bg-ecommerce-secondary">
       <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden">
         {/* ---------- FORM INGRESAR (login) ---------- */}
         <div
@@ -215,18 +215,27 @@ export default function EcomerceLoginPage() {
         >
           <section className="px-3 xl:px-0 py-9 max-w-xs h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-between">
             <div className="justify-center items-center flex">
-              <img
-                src="/logo-apaisado.svg"
-                alt="Logotipo"
-                className="w-full max-w-20 h-auto object-contain"
-              />
+              <Link
+                href="/portfolio/ecommerce"
+                target=""
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/logo-apaisado.svg"
+                  alt="Logotipo"
+                  className="w-full max-w-20 h-auto object-contain"
+                />
+              </Link>
             </div>
             <div>
-              <h2 className="text-center font-heading text-4xl uppercase text-slate-900 mb-6">
+              <h2 className="text-slate-600 text-center font-heading text-4xl uppercase mb-6">
                 Ingresar con
               </h2>
               <div className="flex justify-center items-center gap-9 mb-6">
-                <Link href="/portfolio/ecommerce/login/facebook">
+                <Link
+                  href="/portfolio/ecommerce/login/facebook"
+                  className="fill-ecommerce-primary hover:fill-ecommerce-primary/60 transition-colors duration-200"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -245,7 +254,10 @@ export default function EcomerceLoginPage() {
                     <path d="M16,7.575c2.062,0,3.895,.713,5.358,2.087l4.009-4.009c-2.431-2.265-5.587-3.653-9.367-3.653-5.473,0-10.195,3.144-12.498,7.725l4.658,3.615c1.107-3.309,4.2-5.765,7.84-5.765Z"></path>
                   </svg>
                 </Link>
-                <Link href="/portfolio/ecommerce/login/google">
+                <Link
+                  href="/portfolio/ecommerce/login/google"
+                  className="fill-ecommerce-primary hover:fill-ecommerce-primary/60 transition-colors duration-200"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -255,7 +267,10 @@ export default function EcomerceLoginPage() {
                     <path d="M16,2c-7.732,0-14,6.268-14,14,0,6.566,4.52,12.075,10.618,13.588v-9.31h-2.887v-4.278h2.887v-1.843c0-4.765,2.156-6.974,6.835-6.974,.887,0,2.417,.174,3.043,.348v3.878c-.33-.035-.904-.052-1.617-.052-2.296,0-3.183,.87-3.183,3.13v1.513h4.573l-.786,4.278h-3.787v9.619c6.932-.837,12.304-6.74,12.304-13.897,0-7.732-6.268-14-14-14Z"></path>
                   </svg>
                 </Link>
-                <Link href="/portfolio/ecommerce/login/tiktok">
+                <Link
+                  href="/portfolio/ecommerce/login/tiktok"
+                  className="fill-ecommerce-primary hover:fill-ecommerce-primary/60 transition-colors duration-200"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -268,7 +283,10 @@ export default function EcomerceLoginPage() {
                     ></path>
                   </svg>
                 </Link>
-                <Link href="/portfolio/ecommerce/login/x">
+                <Link
+                  href="/portfolio/ecommerce/login/x"
+                  className="fill-ecommerce-primary hover:fill-ecommerce-primary/60 transition-colors duration-200"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -296,7 +314,7 @@ export default function EcomerceLoginPage() {
                       setLoginEmail(e.target.value);
                       if (loginEmailError) setLoginEmailError(false);
                     }}
-                    className="w-full border border-slate-200 bg-slate-200 rounded-lg px-3 py-2"
+                    className="w-full border border-white/80 bg-white/80 rounded-lg px-3 py-2"
                     placeholder="Ingresar email"
                   />
                   <FieldError
@@ -316,7 +334,7 @@ export default function EcomerceLoginPage() {
                       setLoginPassword(e.target.value);
                       if (loginPasswordError) setLoginPasswordError(false);
                     }}
-                    className="w-full border border-slate-200 bg-slate-200 rounded-lg px-3 py-2 pr-10"
+                    className="w-full border border-white/80 bg-white/80 rounded-lg px-3 py-2 pr-10"
                     placeholder="Ingresar contraseña"
                   />
                   <button
@@ -364,17 +382,17 @@ export default function EcomerceLoginPage() {
         {/* ---------- MENSAJE REGISTRARSE ---------- */}
         <div
           id="mensaje-registrarse"
-          className={`bg-primary-color text-white ${panelClass(displayMode === "login", "right")}`}
+          className={`bg-ecommerce-primary text-ecommerce-secondary ${panelClass(displayMode === "login", "right")}`}
         >
           <section className="px-3 xl:px-0 py-9 max-w-[420px] h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-center items-center">
-            <h2 className="text-center font-heading text-5xl uppercase">
+            <h2 className="text-center font-heading text-7xl uppercase">
               Hola Nuevo usuario
             </h2>
             <p className="text-xl">Si aun no eres parte de este mundo</p>
             <button
               id="boton-registrarse"
               onClick={() => switchTo("register")}
-              className="hover:bg-white border-2 border-white rounded px-9 py-2 text-white hover:text-black uppercase cursor-pointer transition-colors duration-200"
+              className="hover:bg-ecommerce-secondary border-2 border-ecommerce-secondary rounded px-9 py-2 text-ecommerce-secondary hover:text-ecommerce-primary uppercase cursor-pointer transition-colors duration-200"
             >
               Registrate
             </button>
@@ -384,17 +402,17 @@ export default function EcomerceLoginPage() {
         {/* ---------- MENSAJE INGRESAR ---------- */}
         <div
           id="mensaje-ingresar"
-          className={`bg-primary-color text-white ${panelClass(displayMode === "register", "left")}`}
+          className={`bg-ecommerce-primary text-ecommerce-secondary ${panelClass(displayMode === "register", "left")}`}
         >
           <section className="px-3 xl:px-0 py-9 max-w-[420px] h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-center items-center">
-            <h2 className="text-center font-heading text-5xl uppercase">
+            <h2 className="text-center font-heading text-7xl uppercase">
               Usuario
             </h2>
             <p className="text-xl">Si ya eres usuario porfavor ingresa</p>
             <button
               id="boton-logearse"
               onClick={() => switchTo("login")}
-              className="hover:bg-white border-2 border-white rounded px-9 py-2 text-white hover:text-black uppercase cursor-pointer transition-colors duration-200"
+              className="hover:bg-ecommerce-secondary border-2 border-ecommerce-secondary rounded px-9 py-2 text-ecommerce-secondary hover:text-ecommerce-primary uppercase cursor-pointer transition-colors duration-200"
             >
               Ingresar
             </button>
@@ -408,11 +426,17 @@ export default function EcomerceLoginPage() {
         >
           <section className="px-3 xl:px-0 py-9 max-w-xs h-full min-h-screen mx-auto relative flex flex-col gap-6 justify-between">
             <div className="justify-center items-center flex">
-              <img
-                src="/logo-apaisado.svg"
-                alt="Logotipo"
-                className="w-full max-w-20 h-auto object-contain"
-              />
+              <Link
+                href="/portfolio/ecommerce"
+                target=""
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/logo-apaisado.svg"
+                  alt="Logotipo"
+                  className="w-full max-w-20 h-auto object-contain"
+                />
+              </Link>
             </div>
             <div>
               <h2 className="text-center font-heading text-4xl uppercase text-slate-900 mb-9">
@@ -428,7 +452,7 @@ export default function EcomerceLoginPage() {
                   name="register-name"
                   value={regName}
                   onChange={(e) => setRegName(e.target.value)}
-                  className="w-full border border-slate-200 bg-slate-200 rounded-lg px-3 py-2"
+                  className="w-full border border-white/80 bg-white/80 rounded-lg px-3 py-2"
                   placeholder="Ingresar nombre"
                 />
                 <div className="relative">
@@ -441,7 +465,7 @@ export default function EcomerceLoginPage() {
                       setRegEmail(e.target.value);
                       if (regEmailError) setRegEmailError(false);
                     }}
-                    className="w-full border border-slate-200 bg-slate-200 rounded-lg px-3 py-2"
+                    className="w-full border border-white/80 bg-white/80 rounded-lg px-3 py-2"
                     placeholder="Ingresar email"
                   />
                   <FieldError
@@ -459,7 +483,7 @@ export default function EcomerceLoginPage() {
                       name="register-password"
                       value={regPassword}
                       onChange={(e) => setRegPassword(e.target.value)}
-                      className="w-full border border-slate-200 bg-slate-200 rounded-lg px-3 py-2 pr-10"
+                      className="w-full border border-white/80 bg-white/80 rounded-lg px-3 py-2 pr-10"
                       placeholder="Ingresar contraseña"
                     />
                     <button
@@ -505,7 +529,7 @@ export default function EcomerceLoginPage() {
                       name="register-confirm-password"
                       value={regConfirmPassword}
                       onChange={(e) => setRegConfirmPassword(e.target.value)}
-                      className="w-full border border-slate-200 bg-slate-200 rounded-lg px-3 py-2 pr-10"
+                      className="w-full border border-white/80 bg-white/80 rounded-lg px-3 py-2 pr-10"
                       placeholder="Confirmar contraseña"
                     />
                     <button

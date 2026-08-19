@@ -9,6 +9,25 @@
 }
 
 @theme inline {
+  --color-ecommerce-primary: rgb(239,35,0);
+  --color-ecommerce-secondary: rgb(169,215,205);
+  --color-ecommerce-tertiary: rgb(249,250,234);
+  --color-combinationone-primary: rgb(42,35,18);
+  --color-combinationone-secondary: rgb(255,190,11);
+  --color-combinationtwo-primary: rgb(201,255,51);
+  --color-combinationtwo-secondary: rgb(0,53,102);
+  --color-combinationthree-primary: rgb(40,56,69);
+  --color-combinationthree-secondary: rgb(255,166,73);
+  --color-combinationfour-primary: rgb(193,255,26);
+  --color-combinationfour-secondary: rgb(255,0,174);
+  --color-combinationfive-primary: rgb(126,54,227);
+  --color-combinationfive-secondary: rgb(0,255,255);
+  --color-combinationsix-primary: rgb(255,239,77);
+  --color-combinationsix-secondary: rgb(42,66,140);
+  --color-combinationseven-primary: rgb(84,230,212);
+  --color-combinationseven-secondary: rgb(16,21,22);
+  --color-combinationeight-primary: rgb(16,0,43);
+  --color-combinationeight-secondary: rgb(131,56,236);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
