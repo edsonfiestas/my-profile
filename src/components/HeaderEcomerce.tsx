@@ -13,42 +13,42 @@ const ITEMS: MenuItem[] = [
   {
     title: "Hombres",
     children: [
-      { label: "Polos", href: "/hombres/polos" },
-      { label: "Pantalones", href: "/hombres/pantalones" },
-      { label: "Zapatillas", href: "/hombres/zapatillas" },
-      { label: "Poleras", href: "/hombres/poleras" },
-      { label: "Gorras", href: "/hombres/gorras" },
-      { label: "Correas", href: "/hombres/correas" },
-      { label: "Zapatos", href: "/hombres/zapatos" },
+      { label: "Polos", href: "/portfolio/ecommerce/category" },
+      { label: "Pantalones", href: "/portfolio/ecommerce/category" },
+      { label: "Zapatillas", href: "/portfolio/ecommerce/category" },
+      { label: "Poleras", href: "/portfolio/ecommerce/category" },
+      { label: "Gorras", href: "/portfolio/ecommerce/category" },
+      { label: "Correas", href: "/portfolio/ecommerce/category" },
+      { label: "Zapatos", href: "/portfolio/ecommerce/category" },
     ],
   },
   {
     title: "Mujeres",
     children: [
-      { label: "Vestidos", href: "/mujeres/vestidos" },
-      { label: "Blusas", href: "/mujeres/blusas" },
+      { label: "Vestidos", href: "/portfolio/ecommerce/category" },
+      { label: "Blusas", href: "/portfolio/ecommerce/category" },
     ],
   },
   {
     title: "Outlets",
     children: [
-      { label: "Polos", href: "/hombres/polos" },
-      { label: "Pantalones", href: "/hombres/pantalones" },
-      { label: "Zapatillas", href: "/hombres/zapatillas" },
+      { label: "Polos", href: "/portfolio/ecommerce/category" },
+      { label: "Pantalones", href: "/portfolio/ecommerce/category" },
+      { label: "Zapatillas", href: "/portfolio/ecommerce/category" },
     ],
   },
   {
     title: "Compañias",
     children: [
-      { label: "Vestidos", href: "/mujeres/vestidos" },
-      { label: "Blusas", href: "/mujeres/blusas" },
+      { label: "Vestidos", href: "/portfolio/ecommerce/category" },
+      { label: "Blusas", href: "/portfolio/ecommerce/category" },
     ],
   },
   {
     title: "Tiendas",
     children: [
-      { label: "Vestidos", href: "/mujeres/vestidos" },
-      { label: "Blusas", href: "/mujeres/blusas" },
+      { label: "Vestidos", href: "/portfolio/ecommerce/category" },
+      { label: "Blusas", href: "/portfolio/ecommerce/category" },
     ],
   },
   {
