@@ -10,7 +10,7 @@ export default function FooterEcomerce() {
         <div className="grid grid-cols-10 gap-x-6 gap-y-16">
           <div className="col-span-10 lg:col-span-4 flex justify-center lg:justify-start items-start">
             <div className="flex flex-col gap-6 w-full max-w-md">
-              <h3 className="font-bold uppercase text-slate-900">
+              <h3 className="font-bold uppercase text-slate-600">
                 Obten super ofertas y novedades
               </h3>
               <p>
@@ -33,7 +33,7 @@ export default function FooterEcomerce() {
             </div>
           </div>
           <div className="flex flex-col gap-3 col-span-10 sm:col-span-5 md:col-span-3 lg:col-span-2">
-            <h3 className="font-bold text-lg uppercase text-slate-900">
+            <h3 className="font-bold text-lg uppercase text-slate-600">
               Soporte
             </h3>
             <span>
@@ -63,7 +63,7 @@ export default function FooterEcomerce() {
             </span>
           </div>
           <div className="flex flex-col gap-3 col-span-10 sm:col-span-5 md:col-span-3 lg:col-span-2">
-            <h3 className="font-bold text-lg uppercase text-slate-900">
+            <h3 className="font-bold text-lg uppercase text-slate-600">
               Compañia
             </h3>
             <span>
@@ -103,7 +103,7 @@ export default function FooterEcomerce() {
             </span>
           </div>
           <div className="flex flex-col gap-3 col-span-10 sm:col-span-5 md:col-span-3 lg:col-span-2">
-            <h3 className="font-bold text-lg uppercase text-slate-900">
+            <h3 className="font-bold text-lg uppercase text-slate-600">
               Recursos
             </h3>
             <span>

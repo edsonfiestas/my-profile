@@ -21,7 +21,7 @@ export default function EcomercePage() {
           />
         </figure>
         <div className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-          <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl mb-2 md:mb-4 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
+          <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl mb-2 md:mb-4 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
             Aprovecha esta gran oferta
           </h1>
           <p className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-12 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
@@ -42,7 +42,7 @@ export default function EcomercePage() {
       {/* BBANNER FIN*/}
       <section className="w-full">
         <div className="px-3 xl:px-0 py-9 w-full max-w-[1440px] mx-auto relative">
-          <h2 className="text-center text-2xl font-bold uppercase text-slate-900 mb-9">
+          <h2 className="text-center text-4xl uppercase text-slate-600 font-heading mb-9">
             Productos destacados
           </h2>
           <FeatureEcomerce />
@@ -50,7 +50,7 @@ export default function EcomercePage() {
       </section>
       <section className="w-full">
         <div className="px-3 xl:px-0 py-9 w-full max-w-[1440px] mx-auto relative">
-          <h2 className="text-center text-2xl font-bold uppercase text-slate-900 mb-9">
+          <h2 className="text-center text-4xl uppercase text-slate-600 font-heading mb-9">
             Disfruta de lo bueno
           </h2>
           <CarruselEcomerce />
@@ -87,7 +87,7 @@ export default function EcomercePage() {
       </section>
       <section className="w-full">
         <div className="px-3 xl:px-0 py-9 w-full max-w-[1440px] mx-auto relative">
-          <h2 className="text-center text-2xl font-bold uppercase text-slate-900 mb-9">
+          <h2 className="text-center text-4xl uppercase text-slate-600 font-heading mb-9">
             Novedades
           </h2>
           <FeatureEcomerce />
@@ -95,7 +95,7 @@ export default function EcomercePage() {
       </section>
       <section className="w-full">
         <div className="px-3 xl:px-0 py-9 w-full max-w-[1440px] mx-auto relative">
-          <h2 className="text-center text-2xl font-bold uppercase text-slate-900 mb-9">
+          <h2 className="text-center text-4xl uppercase text-slate-600 font-heading mb-9">
             Productos destacados
           </h2>
           <CarruselEcomerce />
