@@ -607,12 +607,12 @@ export default function HeaderEcomerce() {
       )}
       {/* MENU PRINCIPAL PARA RESPONSIVE FIN*/}
       {/* HEADER INICIO*/}
-      <header className="bg-ecommerce-tertiary w-full text-slate-600">
+      <header className=" w-full">
         <div className="flex flex-col w-full">
           {/* CARRUSEL INICIO*/}
-          <div className="py-3 bg-ecommerce-secondary text-teal-800">
+          <div className="pt-2 pb-1 bg-ecommerce-secondary text-white">
             <div className="carrusel-top">
-              <div className="carrusel-track font-semibold text-xs tracking-wider uppercase">
+              <div className="carrusel-track font-subheading-ecommerce text-lg tracking-wider uppercase">
                 <span>Participa para ganar el kit "Hecho en verano"</span>
                 <span>•</span>
                 <span>Participa para ganar el kit "Hecho en verano"</span>
@@ -714,42 +714,42 @@ export default function HeaderEcomerce() {
               <nav ref={navRef} className="hidden xl:flex gap-3 ">
                 <a
                   href="#"
-                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
+                  className="text-xs font-heading-ecommerce text-slate-400 hover:text-ecommerce-primary border-ecommerce-tertiary hover:border-ecommerce-primary border-4 px-4 py-2"
                   onClick={toggleMenu("hombres")}
                 >
                   Hombres
                 </a>
                 <a
                   href="#"
-                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
+                  className="text-xs font-heading-ecommerce text-slate-400 hover:text-ecommerce-primary border-ecommerce-tertiary hover:border-ecommerce-primary border-4 px-4 py-2"
                   onClick={toggleMenu("mujeres")}
                 >
                   Mujeres
                 </a>
                 <a
                   href="#"
-                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
+                  className="text-xs font-heading-ecommerce text-slate-400 hover:text-ecommerce-primary border-ecommerce-tertiary hover:border-ecommerce-primary border-4 px-4 py-2"
                   onClick={toggleMenu("ninos")}
                 >
                   Niños
                 </a>
                 <a
                   href="#"
-                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
+                  className="text-xs font-heading-ecommerce text-slate-400 hover:text-ecommerce-primary border-ecommerce-tertiary hover:border-ecommerce-primary border-4 px-4 py-2"
                   onClick={toggleMenu("outlet")}
                 >
                   Outlet
                 </a>
                 <a
                   href="#"
-                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
+                  className="text-xs font-heading-ecommerce text-slate-400 hover:text-ecommerce-primary border-ecommerce-tertiary hover:border-ecommerce-primary border-4 px-4 py-2"
                   onClick={toggleMenu("companias")}
                 >
                   Compañías
                 </a>
                 <a
                   href="#"
-                  className="border-ecommerce-tertiary hover:border-ecommerce-secondary border-4 px-3 py-1"
+                  className="text-xs font-heading-ecommerce text-slate-400 hover:text-ecommerce-primary border-ecommerce-tertiary hover:border-ecommerce-primary border-4 px-4 py-2"
                   onClick={toggleMenu("tiendas")}
                 >
                   Tiendas
@@ -2101,7 +2101,7 @@ export default function HeaderEcomerce() {
                     href="portfolio/ecommerce/favoritos"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-slate-800  gap-2 items-center hidden md:flex"
+                    className=" hover:bg-ecommerce-primary hover:text-ecommerce-tertiary transition-colors duration-300 ease-in-out h-9 w-9 justify-center items-center hidden md:flex"
                     onClick={(e) => {
                       e.preventDefault();
                       setIsVisible(true);
@@ -2124,7 +2124,7 @@ export default function HeaderEcomerce() {
                     href="/portfolio/ecommerce/favoritos"
                     target=""
                     rel="noopener noreferrer"
-                    className="hover:text-slate-800  gap-2 items-center hidden xl:flex"
+                    className=" hover:bg-ecommerce-primary hover:text-ecommerce-tertiary transition-colors duration-300 ease-in-out h-9 w-9 justify-center items-center hidden md:flex"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2145,7 +2145,7 @@ export default function HeaderEcomerce() {
                     href="/portfolio/ecommerce/login"
                     target=""
                     rel="noopener noreferrer"
-                    className="hover:text-slate-800  gap-2 items-center hidden md:flex"
+                    className=" hover:bg-ecommerce-primary hover:text-ecommerce-tertiary transition-colors duration-300 ease-in-out h-9 w-9 justify-center items-center hidden md:flex"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2166,7 +2166,7 @@ export default function HeaderEcomerce() {
                     href="/portfolio/ecommerce/cart"
                     target=""
                     rel="noopener noreferrer"
-                    className="hover:text-slate-800 flex gap-2 items-center"
+                    className=" hover:bg-ecommerce-primary hover:text-ecommerce-tertiary transition-colors duration-300 ease-in-out h-9 w-9 justify-center items-center hidden md:flex"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

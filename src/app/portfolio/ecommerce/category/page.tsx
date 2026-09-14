@@ -50,7 +50,7 @@ export default function EcomerceCategoryPage() {
           </a>
         </div>
       </section>
-      <section className="w-full">
+      <main className="w-full">
         <div className="px-3 xl:px-0 py-9 w-full max-w-[1440px] mx-auto relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-9 gap-y-16">
           <div className="w-full">
             <div className="flex flex-col gap-3">
@@ -1273,7 +1273,7 @@ export default function EcomerceCategoryPage() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <FooterEcomerce />
     </div>
   );

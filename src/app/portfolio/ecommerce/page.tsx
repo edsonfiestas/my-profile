@@ -9,7 +9,7 @@ import CarruselEcomerce from "@/components/CarruselEcomerce";
 
 export default function EcomercePage() {
   return (
-    <div className="flex flex-col w-full text-slate-600">
+    <div className="flex flex-col w-full bg-ecommerce-tertiary text-slate-300 font-body-ecommerce">
       <HeaderEcomerce />
       {/* BBANNER INICIO*/}
       <section className="bg-[#D1AE8E] flex relative overflow-auto">
@@ -21,10 +21,10 @@ export default function EcomercePage() {
           />
         </figure>
         <div className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-          <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl mb-2 md:mb-4 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
+          <h1 className="font-heading-ecommerce text-5xl md:text-4xl lg:text-5xl mb-2 md:mb-4 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
             Aprovecha esta gran oferta
           </h1>
-          <p className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-12 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
+          <p className="font-subheading-ecommerce text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-12 text-white transition-[font-size] duration-300 ease-in-out text-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
             Solo por tiempo limitado
           </p>
           <button className="px-10 py-4 text-white button-primary-color font-semibold text-lg md:text-xl uppercase tracking-wider rounded-full hover:bg-gray-200 transition-all duration-300 shadow-lg shadow-stone-600 hover:scale-105 cursor-pointer">
@@ -42,7 +42,7 @@ export default function EcomercePage() {
       {/* BBANNER FIN*/}
       <section className="w-full">
         <div className="px-3 xl:px-0 py-9 w-full max-w-[1440px] mx-auto relative">
-          <h2 className="text-center text-4xl uppercase text-slate-600 font-heading mb-9">
+          <h2 className="text-center text-2xl uppercase text-ecommerce-primary font-heading-ecommerce mb-9">
             Productos destacados
           </h2>
           <FeatureEcomerce />
