@@ -10,8 +10,12 @@
 
 @theme inline {
   --color-ecommerce-primary: rgb(198,255,52);
-  --color-ecommerce-secondary: rgb(127, 58, 237);
-  --color-ecommerce-tertiary: rgb(15, 11, 10);
+  --color-ecommerce-secondary: rgb(127,58,237);
+  --color-ecommerce-tertiary: rgb(15,11,10);
+  --color-ecommerce-general: rgb(202,213,226);
+  --color-appbike-primary: rgb(8,86,212);
+  --color-appbike-secondary: rgb(255,138,61);
+  --color-appbike-tertiary: rgb(245,241,232);
   --color-combinationone-primary: rgb(42,35,18);
   --color-combinationone-secondary: rgb(255,190,11);
   --color-combinationtwo-primary: rgb(201,255,51);
@@ -37,6 +41,8 @@
   --font-body-ecommerce: var(--font-manrope);
   --font-heading-ecommerce: var(--font-press-start-2p);
   --font-subheading-ecommerce: var(--font-teko);
+  --font-heading-appbike: var(--font-archivo);
+  --font-body-appbike: var(--font-inter);
 }
 @utility corner-cut {
   clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
@@ -55,6 +61,35 @@ button {
   -webkit-appearance: none;
 }
 
+/* Animaciones del appBike*/
+@keyframes shake {
+          0%,
+          100% {
+            transform: translateX(0);
+          }
+          20% {
+            transform: translateX(-6px);
+          }
+          40% {
+            transform: translateX(6px);
+          }
+          60% {
+            transform: translateX(-4px);
+          }
+          80% {
+            transform: translateX(4px);
+          }
+        }
+        @keyframes toast-in {
+          from {
+            opacity: 0;
+            transform: translate(-50%, -10px);
+          }
+          to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+          }
+        }
 
 /* Animation banner landingPage*/
 @theme {

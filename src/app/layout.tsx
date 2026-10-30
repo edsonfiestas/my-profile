@@ -9,6 +9,8 @@ import {
   Teko,
   Press_Start_2P,
   VT323,
+  Archivo,
+  Inter,
 } from "next/font/google";
 import "./globals.css";
 
@@ -64,6 +66,17 @@ const vt323 = VT323({
   subsets: ["latin"],
 });
 
+const archivo = Archivo({
+  variable: "--font-archivo",
+  weight: "variable",
+  subsets: ["latin"],
+});
+const inter = Inter({
+  variable: "--font-inter",
+  weight: "variable",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "Edson Fiestas - Front Developer & UX/UI Designer",
   description:
@@ -78,7 +91,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${bebasNeue.variable} ${heebo.variable} ${manrope.variable} ${bungee.variable} ${teko.variable} ${pressStart2P.variable} ${vt323.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500`}
+        className={`${geistSans.variable} ${geistMono.variable} ${bebasNeue.variable} ${heebo.variable} ${manrope.variable} ${bungee.variable} ${teko.variable} ${pressStart2P.variable} ${vt323.variable} ${archivo.variable} ${inter.variable} antialiased text-gray-800 bg-gray-100 dark:bg-gray-950 flex justify-center items-center min-h-screen transition-colors duration-500`}
       >
         {children}
       </body>
